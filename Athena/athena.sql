@@ -1,0 +1,1 @@
+SELECT * FROM "supply_chain_db"."supply_chain_processed_data_pipline_bucket" ;

@@ -1,0 +1,1001 @@
+supplier_id,supplier_name,product_type,inventory_count,delivery_status,delivery_days,warehouse_location,shipment_cost,order_quantity,timestamp
+S1,Mahindra Logistics,EV Battery,79,Delivered,6,New York,2916,25,2026-04-22 22:07:21.197928
+S2,Continental Supply,EV Battery,186,In Transit,11,California,8932,45,2026-05-08 22:07:21.197928
+S3,Tesla Parts Ltd,Sensor Module,195,In Transit,2,Chicago,7662,32,2026-04-27 22:07:21.197928
+S4,Mahindra Logistics,Brake System,497,Delivered,15,Toronto,2326,65,2026-05-08 22:07:21.197928
+S5,Continental Supply,EV Battery,271,Delayed,14,New York,2521,65,2026-04-19 22:07:21.197928
+S6,Tata Components,Brake System,160,Delivered,5,Dallas,8040,24,2026-05-11 22:07:21.197928
+S7,Bosch Mobility,Sensor Module,75,In Transit,2,Chicago,3294,61,2026-05-15 22:07:21.197928
+S8,Tata Components,Sensor Module,432,In Transit,13,California,9881,77,2026-05-06 22:07:21.197928
+S9,Continental Supply,Sensor Module,221,In Transit,4,Toronto,7753,76,2026-04-21 22:07:21.197928
+S10,Continental Supply,Sensor Module,409,Delivered,15,Chicago,7333,29,2026-05-07 22:07:21.197928
+S11,Mahindra Logistics,EV Battery,158,In Transit,10,Chicago,3888,32,2026-05-16 22:07:21.197928
+S12,Continental Supply,EV Battery,227,Delivered,1,Chicago,6865,38,2026-05-03 22:07:21.197928
+S13,Tata Components,EV Battery,203,Delayed,12,Toronto,4846,20,2026-04-18 22:07:21.197928
+S14,Tata Components,Motor Controller,64,Delayed,4,California,1881,63,2026-05-13 22:07:21.197928
+S15,Continental Supply,EV Battery,209,Delivered,14,California,7790,74,2026-04-27 22:07:21.197928
+S16,Tesla Parts Ltd,Tyre,451,In Transit,9,Chicago,2493,58,2026-04-26 22:07:21.197928
+S17,Tesla Parts Ltd,Brake System,362,In Transit,7,California,4448,52,2026-04-30 22:07:21.197928
+S18,Bosch Mobility,Motor Controller,119,In Transit,5,California,6800,10,2026-05-04 22:07:21.197928
+S19,Tesla Parts Ltd,EV Battery,262,Delivered,7,California,4078,67,2026-05-14 22:07:21.197928
+S20,Continental Supply,Brake System,465,Delayed,15,Dallas,2352,37,2026-05-17 22:07:21.197928
+S21,Tata Components,Brake System,415,Delivered,12,Dallas,3070,83,2026-05-11 22:07:21.197928
+S22,Tesla Parts Ltd,EV Battery,75,In Transit,10,Chicago,7586,60,2026-05-03 22:07:21.197928
+S23,Tata Components,Motor Controller,102,Delivered,14,Dallas,7184,10,2026-04-30 22:07:21.197928
+S24,Tesla Parts Ltd,EV Battery,54,Delayed,6,New York,9653,64,2026-04-29 22:07:21.197928
+S25,Continental Supply,Brake System,221,Delivered,5,Dallas,6056,100,2026-05-06 22:07:21.197928
+S26,Bosch Mobility,Brake System,481,In Transit,7,New York,8969,10,2026-05-10 22:07:21.197928
+S27,Tesla Parts Ltd,EV Battery,189,Delayed,4,Toronto,9107,84,2026-04-20 22:07:21.197928
+S28,Mahindra Logistics,Motor Controller,180,Delayed,1,Toronto,9395,69,2026-04-19 22:07:21.197928
+S29,Tata Components,Tyre,369,Delayed,14,Chicago,9170,11,2026-05-05 22:07:21.197928
+S30,Tesla Parts Ltd,Tyre,459,Delayed,14,New York,4484,55,2026-05-05 22:07:21.197928
+S31,Tata Components,Sensor Module,240,Delayed,9,Toronto,6119,27,2026-04-29 22:07:21.197928
+S32,Mahindra Logistics,Motor Controller,381,In Transit,4,Toronto,2722,39,2026-04-19 22:07:21.197928
+S33,Tata Components,EV Battery,446,In Transit,4,California,3027,76,2026-05-05 22:07:21.197928
+S34,Bosch Mobility,Tyre,106,Delivered,5,Chicago,7081,55,2026-04-29 22:07:21.197928
+S35,Tata Components,Tyre,493,Delivered,6,California,8466,100,2026-05-05 22:07:21.197928
+S36,Tata Components,Tyre,236,Delayed,14,Toronto,9418,51,2026-05-01 22:07:21.197928
+S37,Tata Components,EV Battery,205,Delivered,2,California,2490,94,2026-04-25 22:07:21.197928
+S38,Mahindra Logistics,EV Battery,294,Delivered,12,New York,2269,61,2026-05-11 22:07:21.197928
+S39,Continental Supply,Sensor Module,413,Delayed,10,Toronto,1633,65,2026-04-23 22:07:21.197928
+S40,Mahindra Logistics,EV Battery,307,Delivered,1,California,1642,23,2026-04-17 22:07:21.197928
+S41,Continental Supply,EV Battery,246,In Transit,8,New York,6343,10,2026-04-22 22:07:21.197928
+S42,Tata Components,Sensor Module,65,In Transit,1,Chicago,2658,96,2026-05-17 22:07:21.197928
+S43,Tesla Parts Ltd,Motor Controller,278,In Transit,4,Toronto,8338,42,2026-04-28 22:07:21.197928
+S44,Tata Components,Motor Controller,445,Delivered,14,Chicago,1668,100,2026-05-03 22:07:21.197928
+S45,Tesla Parts Ltd,Tyre,463,Delayed,4,Dallas,5590,37,2026-04-29 22:07:21.197928
+S46,Continental Supply,Tyre,323,In Transit,2,Dallas,7312,65,2026-05-17 22:07:21.197928
+S47,Bosch Mobility,Tyre,241,In Transit,6,Dallas,2767,82,2026-05-03 22:07:21.197928
+S48,Mahindra Logistics,Brake System,374,Delayed,15,Toronto,4771,56,2026-04-27 22:07:21.197928
+S49,Mahindra Logistics,EV Battery,355,Delivered,9,Toronto,5770,78,2026-04-17 22:07:21.197928
+S50,Tata Components,Tyre,197,Delayed,7,Toronto,6340,90,2026-04-20 22:07:21.197928
+S51,Tesla Parts Ltd,EV Battery,457,In Transit,12,Dallas,5575,69,2026-04-21 22:07:21.197928
+S52,Tesla Parts Ltd,Sensor Module,303,Delivered,14,Toronto,4327,64,2026-05-05 22:07:21.197928
+S53,Continental Supply,Motor Controller,183,In Transit,1,Dallas,9859,81,2026-04-22 22:07:21.197928
+S54,Tata Components,Brake System,138,Delivered,3,Dallas,8523,61,2026-04-24 22:07:21.197928
+S55,Tata Components,Tyre,432,Delayed,1,California,5711,49,2026-04-19 22:07:21.197928
+S56,Mahindra Logistics,Sensor Module,327,Delayed,15,Dallas,5567,84,2026-05-01 22:07:21.197928
+S57,Tata Components,EV Battery,417,Delayed,14,New York,1713,29,2026-05-01 22:07:21.197928
+S58,Mahindra Logistics,Brake System,177,Delivered,3,Toronto,3631,22,2026-05-02 22:07:21.197928
+S59,Tata Components,Brake System,267,In Transit,12,California,4180,32,2026-04-29 22:07:21.197928
+S60,Tata Components,Sensor Module,239,Delayed,6,New York,3107,58,2026-04-20 22:07:21.197928
+S61,Tata Components,EV Battery,338,Delivered,1,Toronto,3305,17,2026-05-03 22:07:21.197928
+S62,Tata Components,EV Battery,184,Delivered,8,California,7507,22,2026-05-11 22:07:21.197928
+S63,Continental Supply,Tyre,498,Delivered,11,Dallas,2753,99,2026-05-02 22:07:21.197928
+S64,Continental Supply,Tyre,222,Delivered,11,California,4379,85,2026-04-29 22:07:21.197928
+S65,Tata Components,Sensor Module,256,Delivered,10,Chicago,8837,94,2026-04-25 22:07:21.197928
+S66,Tesla Parts Ltd,Brake System,445,Delivered,15,Toronto,4049,41,2026-05-05 22:07:21.197928
+S67,Bosch Mobility,Sensor Module,240,In Transit,11,Dallas,7888,87,2026-04-27 22:07:21.197928
+S68,Continental Supply,Sensor Module,281,In Transit,8,Toronto,7849,60,2026-04-30 22:07:21.197928
+S69,Bosch Mobility,Brake System,175,Delivered,7,Toronto,1213,52,2026-04-22 22:07:21.197928
+S70,Tesla Parts Ltd,Brake System,56,Delivered,13,Dallas,7558,57,2026-04-29 22:07:21.197928
+S71,Tata Components,EV Battery,295,Delivered,3,New York,8378,40,2026-05-15 22:07:21.197928
+S72,Continental Supply,EV Battery,486,In Transit,3,California,2783,33,2026-05-10 22:07:21.197928
+S73,Tata Components,Brake System,130,Delivered,12,Toronto,3930,59,2026-05-16 22:07:21.197928
+S74,Bosch Mobility,Motor Controller,443,Delayed,7,New York,6963,24,2026-04-25 22:07:21.197928
+S75,Tesla Parts Ltd,Brake System,455,Delivered,9,California,2045,76,2026-05-04 22:07:21.197928
+S76,Tata Components,Tyre,95,Delivered,15,California,5607,88,2026-05-11 22:07:21.197928
+S77,Mahindra Logistics,Brake System,443,Delayed,10,Toronto,9231,19,2026-05-13 22:07:21.197928
+S78,Continental Supply,EV Battery,289,Delayed,5,Dallas,8826,89,2026-04-17 22:07:21.197928
+S79,Tata Components,Motor Controller,139,In Transit,3,Chicago,9787,45,2026-05-01 22:07:21.197928
+S80,Bosch Mobility,Brake System,435,Delivered,7,Chicago,6421,71,2026-05-16 22:07:21.197928
+S81,Tesla Parts Ltd,EV Battery,490,Delivered,1,Dallas,7968,30,2026-05-14 22:07:21.197928
+S82,Bosch Mobility,Motor Controller,419,Delayed,8,Toronto,1912,64,2026-04-25 22:07:21.197928
+S83,Bosch Mobility,Sensor Module,255,Delayed,4,Chicago,3027,33,2026-04-24 22:07:21.197928
+S84,Tata Components,Brake System,68,In Transit,11,New York,4121,90,2026-05-04 22:07:21.197928
+S85,Bosch Mobility,Tyre,311,Delayed,3,Dallas,6648,76,2026-04-28 22:07:21.197928
+S86,Tesla Parts Ltd,Sensor Module,320,Delayed,11,Chicago,9007,20,2026-05-07 22:07:21.197928
+S87,Continental Supply,Brake System,217,Delayed,7,Dallas,2819,16,2026-05-06 22:07:21.197928
+S88,Mahindra Logistics,Tyre,64,Delivered,15,Chicago,4145,96,2026-04-30 22:07:21.197928
+S89,Continental Supply,Sensor Module,270,Delayed,15,Dallas,6470,28,2026-05-04 22:07:21.197928
+S90,Continental Supply,Motor Controller,78,Delayed,5,Dallas,1850,72,2026-04-26 22:07:21.197928
+S91,Bosch Mobility,Motor Controller,209,Delivered,8,Dallas,6370,43,2026-04-18 22:07:21.197928
+S92,Tata Components,EV Battery,84,Delivered,13,California,1121,38,2026-04-18 22:07:21.197928
+S93,Bosch Mobility,Motor Controller,317,In Transit,7,Chicago,7107,96,2026-05-04 22:07:21.197928
+S94,Mahindra Logistics,Brake System,204,Delivered,2,Dallas,9896,72,2026-04-27 22:07:21.197928
+S95,Continental Supply,Sensor Module,218,Delivered,3,Dallas,6067,46,2026-04-26 22:07:21.197928
+S96,Mahindra Logistics,Brake System,193,Delayed,1,New York,3161,11,2026-05-14 22:07:21.197928
+S97,Continental Supply,Sensor Module,55,Delivered,5,Toronto,8904,16,2026-04-23 22:07:21.197928
+S98,Tata Components,Tyre,92,Delivered,15,California,7490,97,2026-04-17 22:07:21.197928
+S99,Continental Supply,Tyre,198,Delivered,8,New York,8016,99,2026-04-22 22:07:21.197928
+S100,Mahindra Logistics,Tyre,420,Delivered,7,Dallas,6808,99,2026-05-08 22:07:21.197928
+S101,Bosch Mobility,Motor Controller,93,In Transit,6,Toronto,9471,37,2026-04-22 22:07:21.197928
+S102,Tesla Parts Ltd,Motor Controller,418,Delivered,13,California,6925,57,2026-04-30 22:07:21.197928
+S103,Tata Components,Sensor Module,464,Delayed,2,New York,1124,81,2026-04-20 22:07:21.197928
+S104,Tesla Parts Ltd,Brake System,260,Delayed,14,Chicago,9598,98,2026-04-23 22:07:21.197928
+S105,Mahindra Logistics,Sensor Module,407,Delayed,13,Toronto,2140,90,2026-04-23 22:07:21.197928
+S106,Tata Components,EV Battery,132,Delayed,1,California,5799,82,2026-05-04 22:07:21.197928
+S107,Bosch Mobility,Brake System,160,Delayed,4,New York,6156,94,2026-05-13 22:07:21.197928
+S108,Tata Components,Sensor Module,102,Delayed,8,Dallas,5276,10,2026-04-24 22:07:21.197928
+S109,Continental Supply,Motor Controller,310,Delayed,8,Chicago,3020,44,2026-04-21 22:07:21.197928
+S110,Tata Components,Brake System,342,Delivered,9,California,1655,29,2026-05-13 22:07:21.197928
+S111,Tesla Parts Ltd,Brake System,469,In Transit,2,Toronto,4498,39,2026-05-05 22:07:21.197928
+S112,Bosch Mobility,Sensor Module,500,Delivered,6,New York,1317,100,2026-04-22 22:07:21.197928
+S113,Tesla Parts Ltd,EV Battery,127,Delivered,7,Chicago,3046,22,2026-04-17 22:07:21.197928
+S114,Bosch Mobility,EV Battery,352,Delivered,5,Chicago,8910,11,2026-04-19 22:07:21.197928
+S115,Mahindra Logistics,Tyre,183,In Transit,6,Chicago,9575,69,2026-05-13 22:07:21.197928
+S116,Tata Components,Tyre,50,In Transit,3,Chicago,7581,51,2026-05-14 22:07:21.197928
+S117,Tesla Parts Ltd,Brake System,64,Delivered,6,Chicago,8058,57,2026-04-27 22:07:21.197928
+S118,Tata Components,Sensor Module,352,Delivered,8,Toronto,1657,16,2026-05-02 22:07:21.197928
+S119,Mahindra Logistics,Tyre,276,In Transit,9,Dallas,1183,90,2026-05-10 22:07:21.197928
+S120,Tata Components,Sensor Module,279,Delayed,13,California,9321,94,2026-05-01 22:07:21.197928
+S121,Tata Components,Brake System,68,Delayed,3,Toronto,1103,59,2026-04-27 22:07:21.197928
+S122,Tesla Parts Ltd,EV Battery,214,In Transit,12,California,3905,55,2026-05-13 22:07:21.197928
+S123,Mahindra Logistics,Motor Controller,393,In Transit,9,Chicago,5834,78,2026-05-04 22:07:21.197928
+S124,Bosch Mobility,Sensor Module,267,Delayed,12,Dallas,2749,68,2026-05-06 22:07:21.197928
+S125,Bosch Mobility,EV Battery,351,Delayed,6,California,3478,92,2026-05-12 22:07:21.197928
+S126,Continental Supply,Brake System,382,Delayed,5,Dallas,8298,81,2026-05-10 22:07:21.197928
+S127,Mahindra Logistics,Motor Controller,204,In Transit,10,Dallas,7781,41,2026-05-05 22:07:21.197928
+S128,Mahindra Logistics,Sensor Module,305,In Transit,15,New York,4086,90,2026-05-01 22:07:21.197928
+S129,Bosch Mobility,Brake System,106,In Transit,9,California,5313,26,2026-05-07 22:07:21.197928
+S130,Bosch Mobility,Brake System,246,Delivered,3,Dallas,5335,23,2026-05-17 22:07:21.197928
+S131,Tata Components,Motor Controller,458,Delayed,1,California,3755,55,2026-04-23 22:07:21.197928
+S132,Continental Supply,EV Battery,342,Delayed,1,Chicago,5424,30,2026-05-08 22:07:21.197928
+S133,Mahindra Logistics,Motor Controller,101,Delivered,2,Dallas,5677,35,2026-04-18 22:07:21.197928
+S134,Bosch Mobility,Sensor Module,372,Delivered,4,California,2671,41,2026-04-19 22:07:21.197928
+S135,Continental Supply,Tyre,422,Delivered,5,Chicago,7900,39,2026-04-25 22:07:21.197928
+S136,Continental Supply,Brake System,84,Delayed,13,New York,8292,85,2026-05-06 22:07:21.197928
+S137,Continental Supply,Motor Controller,207,Delayed,6,New York,8395,41,2026-04-18 22:07:21.197928
+S138,Bosch Mobility,Motor Controller,242,Delayed,4,Dallas,4468,45,2026-05-15 22:07:21.197928
+S139,Tesla Parts Ltd,Motor Controller,375,Delayed,11,Dallas,1209,12,2026-05-09 22:07:21.197928
+S140,Bosch Mobility,Brake System,249,Delayed,14,Chicago,5205,71,2026-05-02 22:07:21.197928
+S141,Tata Components,Tyre,179,Delayed,15,California,5796,27,2026-05-12 22:07:21.197928
+S142,Tata Components,Tyre,301,Delayed,11,New York,7059,26,2026-05-05 22:07:21.197928
+S143,Continental Supply,Brake System,269,Delivered,12,California,7416,97,2026-05-13 22:07:21.197928
+S144,Tesla Parts Ltd,Brake System,206,Delivered,9,Dallas,4629,13,2026-05-09 22:07:21.197928
+S145,Tesla Parts Ltd,Motor Controller,265,Delayed,2,New York,3475,50,2026-04-17 22:07:21.197928
+S146,Mahindra Logistics,Brake System,481,Delayed,6,Dallas,8928,69,2026-04-28 22:07:21.197928
+S147,Mahindra Logistics,Brake System,402,Delayed,15,Chicago,3258,32,2026-04-30 22:07:21.197928
+S148,Tesla Parts Ltd,Motor Controller,445,Delivered,10,Toronto,8138,100,2026-05-09 22:07:21.197928
+S149,Tata Components,Tyre,428,Delayed,2,Toronto,2293,18,2026-04-21 22:07:21.197928
+S150,Continental Supply,EV Battery,51,Delayed,6,Dallas,8956,42,2026-05-05 22:07:21.197928
+S151,Mahindra Logistics,Brake System,309,In Transit,3,New York,2243,41,2026-05-15 22:07:21.197928
+S152,Mahindra Logistics,Motor Controller,135,In Transit,9,California,4902,88,2026-05-13 22:07:21.197928
+S153,Tesla Parts Ltd,EV Battery,489,In Transit,13,Toronto,7929,38,2026-05-11 22:07:21.197928
+S154,Continental Supply,Tyre,108,Delayed,9,Dallas,9215,54,2026-04-29 22:07:21.197928
+S155,Tesla Parts Ltd,Tyre,469,Delayed,15,California,2488,33,2026-05-10 22:07:21.197928
+S156,Bosch Mobility,Motor Controller,428,In Transit,12,New York,7120,62,2026-05-17 22:07:21.197928
+S157,Continental Supply,EV Battery,66,Delayed,13,New York,6745,38,2026-04-27 22:07:21.197928
+S158,Tesla Parts Ltd,Sensor Module,381,Delayed,8,Chicago,6889,11,2026-05-02 22:07:21.197928
+S159,Bosch Mobility,Motor Controller,331,Delayed,2,Dallas,6389,75,2026-05-01 22:07:21.197928
+S160,Mahindra Logistics,EV Battery,305,Delivered,11,Dallas,8847,100,2026-05-05 22:07:21.197928
+S161,Bosch Mobility,Tyre,367,In Transit,7,Chicago,3249,82,2026-05-11 22:07:21.197928
+S162,Tesla Parts Ltd,Brake System,234,Delayed,10,California,5415,68,2026-05-05 22:07:21.197928
+S163,Tata Components,Motor Controller,268,Delayed,15,Dallas,2352,12,2026-05-16 22:07:21.197928
+S164,Mahindra Logistics,Brake System,423,In Transit,9,Toronto,3383,45,2026-04-18 22:07:21.197928
+S165,Mahindra Logistics,Tyre,178,In Transit,9,Dallas,5453,27,2026-05-07 22:07:21.197928
+S166,Continental Supply,EV Battery,72,Delivered,3,Chicago,4340,29,2026-04-26 22:07:21.197928
+S167,Continental Supply,EV Battery,487,In Transit,9,Toronto,6026,54,2026-05-05 22:07:21.197928
+S168,Continental Supply,EV Battery,374,Delayed,2,Toronto,1107,55,2026-05-01 22:07:21.197928
+S169,Continental Supply,Motor Controller,237,In Transit,1,New York,4618,41,2026-05-10 22:07:21.197928
+S170,Mahindra Logistics,Motor Controller,231,Delayed,6,New York,9223,70,2026-05-17 22:07:21.197928
+S171,Bosch Mobility,Sensor Module,88,In Transit,1,Chicago,2484,84,2026-05-08 22:07:21.197928
+S172,Tesla Parts Ltd,Motor Controller,470,Delayed,9,Toronto,9121,33,2026-04-25 22:07:21.197928
+S173,Mahindra Logistics,Sensor Module,356,Delivered,5,California,2197,37,2026-05-12 22:07:21.197928
+S174,Mahindra Logistics,Tyre,119,In Transit,7,California,6540,42,2026-05-07 22:07:21.197928
+S175,Tata Components,Brake System,52,In Transit,15,Toronto,8789,43,2026-05-14 22:07:21.197928
+S176,Tata Components,Brake System,57,Delivered,4,California,1472,35,2026-05-08 22:07:21.197928
+S177,Bosch Mobility,Sensor Module,92,Delivered,10,Toronto,5356,12,2026-05-09 22:07:21.197928
+S178,Continental Supply,Brake System,229,In Transit,8,New York,4663,49,2026-05-08 22:07:21.197928
+S179,Mahindra Logistics,Motor Controller,136,In Transit,9,Toronto,2424,27,2026-05-08 22:07:21.197928
+S180,Bosch Mobility,Motor Controller,335,In Transit,15,Chicago,5122,44,2026-04-18 22:07:21.197928
+S181,Mahindra Logistics,Sensor Module,67,Delayed,4,Dallas,9625,100,2026-05-14 22:07:21.197928
+S182,Continental Supply,Tyre,178,Delivered,3,Dallas,3655,80,2026-05-10 22:07:21.197928
+S183,Mahindra Logistics,Tyre,169,Delivered,8,California,7821,82,2026-04-20 22:07:21.197928
+S184,Tesla Parts Ltd,Sensor Module,278,In Transit,1,California,4978,96,2026-04-23 22:07:21.197928
+S185,Tesla Parts Ltd,EV Battery,71,In Transit,8,Chicago,6330,17,2026-04-22 22:07:21.197928
+S186,Tata Components,EV Battery,149,In Transit,6,Chicago,8215,30,2026-04-24 22:07:21.197928
+S187,Continental Supply,Motor Controller,184,In Transit,11,Chicago,2218,79,2026-05-01 22:07:21.197928
+S188,Tata Components,Tyre,103,Delivered,15,California,9696,73,2026-05-12 22:07:21.197928
+S189,Tata Components,Motor Controller,410,Delayed,2,Chicago,1905,99,2026-04-23 22:07:21.197928
+S190,Continental Supply,EV Battery,305,In Transit,15,New York,5336,49,2026-05-10 22:07:21.197928
+S191,Tata Components,Tyre,240,Delivered,7,New York,9059,16,2026-04-26 22:07:21.197928
+S192,Continental Supply,Tyre,135,Delivered,6,Chicago,4902,35,2026-05-03 22:07:21.197928
+S193,Tata Components,Brake System,82,Delayed,10,Chicago,5703,64,2026-05-05 22:07:21.197928
+S194,Bosch Mobility,Brake System,415,Delivered,10,Toronto,4715,21,2026-04-24 22:07:21.197928
+S195,Mahindra Logistics,EV Battery,334,Delivered,12,New York,2296,61,2026-04-19 22:07:21.197928
+S196,Continental Supply,Motor Controller,489,Delayed,9,Toronto,3846,33,2026-04-23 22:07:21.197928
+S197,Tata Components,Motor Controller,284,Delayed,6,Dallas,6244,93,2026-04-19 22:07:21.197928
+S198,Tesla Parts Ltd,Tyre,490,Delayed,11,Toronto,2617,59,2026-04-27 22:07:21.197928
+S199,Tesla Parts Ltd,Brake System,408,Delayed,6,Chicago,9216,73,2026-05-11 22:07:21.197928
+S200,Mahindra Logistics,Motor Controller,419,Delayed,10,Chicago,1069,11,2026-05-15 22:07:21.197928
+S201,Bosch Mobility,Sensor Module,127,Delayed,14,California,5185,18,2026-04-17 22:07:21.197928
+S202,Continental Supply,Motor Controller,99,Delivered,5,New York,3444,53,2026-04-25 22:07:21.197928
+S203,Bosch Mobility,Sensor Module,156,Delayed,14,Chicago,4884,100,2026-04-30 22:07:21.197928
+S204,Continental Supply,EV Battery,354,In Transit,12,Toronto,2047,54,2026-04-30 22:07:21.197928
+S205,Bosch Mobility,Sensor Module,131,In Transit,15,Chicago,8179,100,2026-05-04 22:07:21.197928
+S206,Bosch Mobility,Motor Controller,162,Delayed,1,Chicago,3333,35,2026-05-01 22:07:21.197928
+S207,Mahindra Logistics,Sensor Module,306,In Transit,6,New York,6329,66,2026-04-26 22:07:21.197928
+S208,Tata Components,EV Battery,121,In Transit,13,Toronto,2780,74,2026-05-11 22:07:21.197928
+S209,Bosch Mobility,EV Battery,240,In Transit,5,Chicago,9905,87,2026-04-21 22:07:21.197928
+S210,Continental Supply,EV Battery,450,In Transit,1,California,4824,15,2026-05-09 22:07:21.197928
+S211,Tesla Parts Ltd,Tyre,209,Delivered,9,Chicago,6850,87,2026-05-02 22:07:21.197928
+S212,Bosch Mobility,Brake System,498,In Transit,1,New York,8352,22,2026-04-25 22:07:21.197928
+S213,Continental Supply,Sensor Module,421,Delivered,1,Toronto,2114,22,2026-04-26 22:07:21.197928
+S214,Bosch Mobility,Motor Controller,447,Delayed,4,California,3574,29,2026-05-17 22:07:21.197928
+S215,Tesla Parts Ltd,Tyre,304,In Transit,14,New York,1800,71,2026-05-12 22:07:21.199935
+S216,Bosch Mobility,Tyre,486,Delayed,5,Dallas,8328,46,2026-05-09 22:07:21.199935
+S217,Bosch Mobility,Sensor Module,270,Delayed,4,Dallas,8683,21,2026-04-25 22:07:21.199935
+S218,Mahindra Logistics,EV Battery,475,Delivered,6,Toronto,9983,79,2026-04-22 22:07:21.199935
+S219,Mahindra Logistics,Brake System,400,In Transit,14,New York,6255,95,2026-04-30 22:07:21.199935
+S220,Continental Supply,Tyre,273,In Transit,3,California,2822,80,2026-05-04 22:07:21.199935
+S221,Bosch Mobility,Motor Controller,79,Delayed,7,Dallas,1951,66,2026-04-30 22:07:21.199935
+S222,Tata Components,Sensor Module,384,Delivered,9,New York,1067,96,2026-04-22 22:07:21.199935
+S223,Bosch Mobility,Tyre,207,Delayed,15,Toronto,1002,42,2026-05-05 22:07:21.199935
+S224,Mahindra Logistics,Tyre,410,In Transit,11,Chicago,1605,34,2026-05-13 22:07:21.199935
+S225,Tesla Parts Ltd,Motor Controller,364,Delayed,7,California,4928,70,2026-05-10 22:07:21.199935
+S226,Continental Supply,Brake System,83,Delivered,7,Dallas,9500,95,2026-05-07 22:07:21.199935
+S227,Continental Supply,Motor Controller,99,Delayed,15,Dallas,9914,100,2026-05-17 22:07:21.199935
+S228,Tata Components,Motor Controller,345,In Transit,4,Dallas,9991,11,2026-05-08 22:07:21.199935
+S229,Tata Components,Motor Controller,174,Delivered,9,California,7314,34,2026-04-25 22:07:21.199935
+S230,Continental Supply,Sensor Module,164,In Transit,7,New York,4625,25,2026-05-01 22:07:21.199935
+S231,Mahindra Logistics,Tyre,306,In Transit,15,Toronto,5032,34,2026-05-09 22:07:21.199935
+S232,Tata Components,Brake System,216,Delayed,11,New York,8608,74,2026-04-21 22:07:21.199935
+S233,Mahindra Logistics,Motor Controller,127,In Transit,3,New York,1549,41,2026-04-21 22:07:21.199935
+S234,Continental Supply,EV Battery,197,In Transit,13,Chicago,3143,23,2026-04-29 22:07:21.199935
+S235,Tata Components,Tyre,245,Delivered,6,California,1390,93,2026-05-15 22:07:21.199935
+S236,Bosch Mobility,Tyre,485,In Transit,13,Dallas,8681,26,2026-04-26 22:07:21.199935
+S237,Continental Supply,Tyre,383,Delivered,10,California,9229,60,2026-05-05 22:07:21.199935
+S238,Tata Components,Tyre,347,Delayed,12,New York,9971,34,2026-05-15 22:07:21.199935
+S239,Mahindra Logistics,Motor Controller,410,In Transit,13,Dallas,8635,71,2026-05-09 22:07:21.199935
+S240,Continental Supply,Tyre,127,Delivered,9,Toronto,5780,15,2026-04-17 22:07:21.199935
+S241,Tata Components,Tyre,375,In Transit,5,Toronto,1870,96,2026-05-01 22:07:21.199935
+S242,Bosch Mobility,Sensor Module,409,Delayed,6,Dallas,5924,43,2026-05-04 22:07:21.199935
+S243,Tata Components,Sensor Module,338,Delivered,6,California,7863,74,2026-05-03 22:07:21.199935
+S244,Tesla Parts Ltd,Sensor Module,144,Delayed,3,Toronto,9557,89,2026-04-19 22:07:21.199935
+S245,Bosch Mobility,Motor Controller,51,Delivered,9,New York,4615,96,2026-05-10 22:07:21.199935
+S246,Tata Components,EV Battery,115,Delayed,13,Toronto,8949,96,2026-05-03 22:07:21.199935
+S247,Continental Supply,EV Battery,459,In Transit,14,Dallas,5503,92,2026-05-04 22:07:21.199935
+S248,Tesla Parts Ltd,Motor Controller,287,Delivered,1,Dallas,9216,11,2026-05-12 22:07:21.199935
+S249,Mahindra Logistics,Sensor Module,304,Delayed,9,New York,3941,88,2026-04-18 22:07:21.199935
+S250,Bosch Mobility,Motor Controller,229,Delayed,6,California,3028,37,2026-05-06 22:07:21.199935
+S251,Tata Components,Brake System,88,Delivered,1,Chicago,2143,77,2026-05-03 22:07:21.199935
+S252,Tesla Parts Ltd,Tyre,143,In Transit,8,California,7773,15,2026-05-11 22:07:21.199935
+S253,Mahindra Logistics,Tyre,199,In Transit,2,California,4340,26,2026-05-03 22:07:21.199935
+S254,Mahindra Logistics,Motor Controller,495,In Transit,11,Toronto,4569,64,2026-05-04 22:07:21.199935
+S255,Bosch Mobility,Brake System,243,Delayed,7,Chicago,8083,45,2026-05-17 22:07:21.199935
+S256,Tata Components,Tyre,195,Delayed,5,California,2991,16,2026-04-27 22:07:21.199935
+S257,Continental Supply,Tyre,117,Delayed,5,Chicago,2018,62,2026-04-23 22:07:21.199935
+S258,Continental Supply,Brake System,111,In Transit,11,Chicago,8795,96,2026-05-07 22:07:21.199935
+S259,Tesla Parts Ltd,Sensor Module,135,In Transit,8,California,9109,61,2026-05-11 22:07:21.199935
+S260,Bosch Mobility,Sensor Module,138,Delayed,10,Dallas,3422,56,2026-05-01 22:07:21.199935
+S261,Tata Components,Brake System,238,Delayed,5,California,4943,28,2026-04-19 22:07:21.199935
+S262,Bosch Mobility,Tyre,71,Delayed,8,Chicago,9639,30,2026-05-10 22:07:21.199935
+S263,Continental Supply,Sensor Module,248,Delivered,10,Chicago,8856,85,2026-05-04 22:07:21.199935
+S264,Mahindra Logistics,Sensor Module,219,Delivered,14,Chicago,8054,69,2026-05-16 22:07:21.199935
+S265,Bosch Mobility,Tyre,414,In Transit,12,Toronto,1484,31,2026-05-02 22:07:21.199935
+S266,Tesla Parts Ltd,Brake System,454,Delayed,2,Toronto,6386,11,2026-05-16 22:07:21.199935
+S267,Bosch Mobility,Sensor Module,341,Delivered,4,Toronto,5255,29,2026-05-07 22:07:21.199935
+S268,Continental Supply,Motor Controller,450,In Transit,1,California,3207,27,2026-04-29 22:07:21.199935
+S269,Tata Components,Tyre,126,In Transit,12,Toronto,6820,81,2026-05-04 22:07:21.199935
+S270,Mahindra Logistics,Tyre,392,Delivered,8,Dallas,7680,52,2026-05-15 22:07:21.199935
+S271,Mahindra Logistics,Tyre,137,Delivered,14,Chicago,5722,55,2026-05-16 22:07:21.199935
+S272,Tata Components,Motor Controller,414,In Transit,14,California,8680,46,2026-05-08 22:07:21.199935
+S273,Tata Components,Motor Controller,320,In Transit,2,Chicago,8934,49,2026-04-19 22:07:21.199935
+S274,Continental Supply,Motor Controller,92,Delayed,10,Dallas,8345,83,2026-05-14 22:07:21.199935
+S275,Mahindra Logistics,Motor Controller,105,Delayed,5,Dallas,2196,19,2026-04-18 22:07:21.199935
+S276,Mahindra Logistics,Brake System,280,In Transit,8,Toronto,2245,39,2026-05-06 22:07:21.199935
+S277,Continental Supply,EV Battery,206,In Transit,1,New York,5871,91,2026-04-18 22:07:21.199935
+S278,Continental Supply,EV Battery,336,In Transit,14,New York,9205,23,2026-05-02 22:07:21.199935
+S279,Tesla Parts Ltd,EV Battery,379,Delivered,12,New York,4694,59,2026-05-09 22:07:21.199935
+S280,Tata Components,Brake System,430,In Transit,10,Toronto,7071,48,2026-05-04 22:07:21.199935
+S281,Continental Supply,Brake System,379,Delayed,1,New York,9168,29,2026-04-29 22:07:21.199935
+S282,Bosch Mobility,Motor Controller,305,In Transit,11,Toronto,1885,41,2026-05-16 22:07:21.199935
+S283,Bosch Mobility,EV Battery,168,Delivered,2,New York,6951,67,2026-04-20 22:07:21.199935
+S284,Continental Supply,Brake System,482,Delivered,14,Dallas,5776,11,2026-04-25 22:07:21.199935
+S285,Tata Components,EV Battery,151,Delivered,5,California,3510,77,2026-04-29 22:07:21.199935
+S286,Bosch Mobility,Brake System,497,Delayed,9,Toronto,1963,14,2026-04-17 22:07:21.199935
+S287,Tata Components,Motor Controller,305,In Transit,8,Chicago,5871,68,2026-05-04 22:07:21.199935
+S288,Tata Components,EV Battery,170,In Transit,15,Dallas,8871,69,2026-04-28 22:07:21.199935
+S289,Mahindra Logistics,Tyre,63,Delayed,13,Dallas,5304,87,2026-05-10 22:07:21.199935
+S290,Mahindra Logistics,Tyre,233,Delayed,4,Dallas,9184,20,2026-04-30 22:07:21.199935
+S291,Continental Supply,Motor Controller,120,Delayed,8,Toronto,6522,13,2026-04-19 22:07:21.199935
+S292,Continental Supply,Motor Controller,111,Delivered,1,California,6162,49,2026-05-12 22:07:21.199935
+S293,Tesla Parts Ltd,Tyre,195,In Transit,13,New York,4934,58,2026-05-04 22:07:21.199935
+S294,Mahindra Logistics,Sensor Module,148,Delivered,13,California,5133,55,2026-05-06 22:07:21.199935
+S295,Continental Supply,Sensor Module,395,In Transit,14,Toronto,4683,84,2026-05-03 22:07:21.199935
+S296,Bosch Mobility,Brake System,468,Delivered,5,Toronto,6371,38,2026-05-07 22:07:21.199935
+S297,Tesla Parts Ltd,Tyre,263,In Transit,13,Dallas,6174,94,2026-05-17 22:07:21.199935
+S298,Bosch Mobility,Motor Controller,149,In Transit,14,New York,8229,31,2026-05-03 22:07:21.199935
+S299,Tesla Parts Ltd,Tyre,133,Delayed,8,Toronto,2051,14,2026-04-20 22:07:21.199935
+S300,Tesla Parts Ltd,EV Battery,340,Delivered,2,Chicago,5150,67,2026-04-28 22:07:21.199935
+S301,Tata Components,EV Battery,374,Delayed,3,California,4370,60,2026-05-05 22:07:21.199935
+S302,Mahindra Logistics,Motor Controller,254,Delivered,6,Chicago,9073,13,2026-05-06 22:07:21.199935
+S303,Bosch Mobility,Sensor Module,132,In Transit,9,New York,2274,58,2026-05-05 22:07:21.199935
+S304,Continental Supply,EV Battery,358,In Transit,3,Chicago,1254,48,2026-04-23 22:07:21.199935
+S305,Bosch Mobility,Sensor Module,110,In Transit,6,Dallas,8589,95,2026-04-21 22:07:21.199935
+S306,Mahindra Logistics,Brake System,315,In Transit,15,Toronto,8644,52,2026-04-29 22:07:21.199935
+S307,Tesla Parts Ltd,Sensor Module,90,Delayed,13,Chicago,1449,28,2026-04-24 22:07:21.199935
+S308,Tesla Parts Ltd,Tyre,165,In Transit,9,New York,9930,80,2026-04-18 22:07:21.199935
+S309,Continental Supply,Motor Controller,352,Delayed,1,California,2171,16,2026-04-27 22:07:21.199935
+S310,Mahindra Logistics,Brake System,233,In Transit,1,Toronto,4500,71,2026-04-28 22:07:21.199935
+S311,Tata Components,EV Battery,104,Delivered,7,Chicago,1069,69,2026-05-12 22:07:21.199935
+S312,Tesla Parts Ltd,EV Battery,419,Delayed,7,California,5609,55,2026-05-11 22:07:21.199935
+S313,Tesla Parts Ltd,Motor Controller,383,Delivered,7,Chicago,2496,64,2026-04-20 22:07:21.199935
+S314,Bosch Mobility,Motor Controller,150,Delayed,14,California,1817,92,2026-04-24 22:07:21.199935
+S315,Continental Supply,Motor Controller,458,Delayed,2,Toronto,5598,66,2026-05-03 22:07:21.199935
+S316,Continental Supply,EV Battery,320,Delivered,2,California,2061,27,2026-05-11 22:07:21.199935
+S317,Bosch Mobility,Sensor Module,191,Delivered,13,Toronto,3722,14,2026-05-07 22:07:21.199935
+S318,Tesla Parts Ltd,Motor Controller,250,In Transit,5,Chicago,6341,80,2026-05-03 22:07:21.199935
+S319,Mahindra Logistics,EV Battery,466,Delivered,10,New York,9845,90,2026-05-11 22:07:21.199935
+S320,Bosch Mobility,Tyre,436,Delayed,1,New York,6289,27,2026-05-15 22:07:21.199935
+S321,Continental Supply,Brake System,190,Delayed,7,Chicago,3241,93,2026-04-22 22:07:21.199935
+S322,Tata Components,Tyre,385,In Transit,3,Dallas,8707,64,2026-05-14 22:07:21.199935
+S323,Tata Components,Brake System,336,In Transit,11,Chicago,9157,34,2026-05-16 22:07:21.199935
+S324,Mahindra Logistics,Tyre,317,Delayed,2,Toronto,6733,40,2026-04-26 22:07:21.199935
+S325,Tata Components,Motor Controller,401,Delivered,8,Toronto,5758,99,2026-04-19 22:07:21.199935
+S326,Tata Components,Tyre,282,In Transit,7,Chicago,2412,54,2026-05-06 22:07:21.199935
+S327,Continental Supply,Brake System,368,Delivered,8,New York,7516,96,2026-04-24 22:07:21.199935
+S328,Bosch Mobility,Motor Controller,294,Delayed,1,Toronto,8711,60,2026-04-26 22:07:21.199935
+S329,Bosch Mobility,Sensor Module,353,Delayed,1,New York,1374,68,2026-05-13 22:07:21.199935
+S330,Bosch Mobility,Tyre,226,Delayed,10,Toronto,6578,84,2026-04-30 22:07:21.199935
+S331,Tesla Parts Ltd,Brake System,346,In Transit,7,Toronto,6664,92,2026-04-22 22:07:21.199935
+S332,Continental Supply,EV Battery,392,Delayed,6,Toronto,4160,53,2026-05-15 22:07:21.199935
+S333,Mahindra Logistics,Motor Controller,414,In Transit,14,California,7275,15,2026-04-26 22:07:21.199935
+S334,Continental Supply,Brake System,245,Delivered,5,Toronto,4101,50,2026-04-21 22:07:21.199935
+S335,Tata Components,EV Battery,347,Delivered,2,Toronto,5314,72,2026-05-01 22:07:21.199935
+S336,Continental Supply,EV Battery,68,Delivered,2,New York,8310,11,2026-04-29 22:07:21.199935
+S337,Continental Supply,Sensor Module,459,In Transit,4,California,2039,70,2026-04-19 22:07:21.199935
+S338,Continental Supply,Brake System,255,In Transit,14,California,2122,39,2026-04-24 22:07:21.199935
+S339,Mahindra Logistics,EV Battery,347,In Transit,1,Toronto,9319,97,2026-04-21 22:07:21.199935
+S340,Bosch Mobility,Tyre,272,In Transit,12,Dallas,1257,20,2026-05-05 22:07:21.199935
+S341,Bosch Mobility,EV Battery,393,In Transit,10,Dallas,8659,35,2026-05-13 22:07:21.199935
+S342,Tesla Parts Ltd,Sensor Module,188,Delivered,13,New York,7660,34,2026-05-03 22:07:21.199935
+S343,Continental Supply,Motor Controller,74,In Transit,9,New York,8129,31,2026-05-03 22:07:21.199935
+S344,Tata Components,Motor Controller,175,In Transit,10,Dallas,5372,28,2026-05-07 22:07:21.199935
+S345,Continental Supply,EV Battery,134,In Transit,1,Toronto,3684,93,2026-05-01 22:07:21.199935
+S346,Continental Supply,Motor Controller,154,In Transit,5,Dallas,7905,42,2026-05-02 22:07:21.199935
+S347,Tata Components,Tyre,356,Delivered,12,Chicago,9948,24,2026-05-17 22:07:21.199935
+S348,Tata Components,Brake System,234,In Transit,10,California,7658,57,2026-04-25 22:07:21.199935
+S349,Tata Components,Motor Controller,205,In Transit,7,Toronto,2193,61,2026-05-10 22:07:21.199935
+S350,Tesla Parts Ltd,Sensor Module,249,Delivered,8,New York,2209,71,2026-05-11 22:07:21.199935
+S351,Continental Supply,Tyre,86,In Transit,11,New York,3141,93,2026-05-16 22:07:21.199935
+S352,Tesla Parts Ltd,Motor Controller,369,Delivered,6,New York,6744,18,2026-04-19 22:07:21.199935
+S353,Tata Components,Sensor Module,312,Delayed,10,Toronto,7937,16,2026-05-14 22:07:21.199935
+S354,Bosch Mobility,Brake System,56,In Transit,11,New York,1895,80,2026-04-24 22:07:21.199935
+S355,Mahindra Logistics,EV Battery,325,Delayed,4,California,2074,96,2026-04-20 22:07:21.199935
+S356,Mahindra Logistics,Motor Controller,278,In Transit,10,Chicago,6363,58,2026-05-12 22:07:21.199935
+S357,Mahindra Logistics,EV Battery,336,Delivered,2,Toronto,1877,54,2026-04-22 22:07:21.199935
+S358,Tata Components,Brake System,192,In Transit,2,Dallas,8651,45,2026-04-29 22:07:21.199935
+S359,Tata Components,Tyre,387,Delayed,7,Dallas,9770,24,2026-05-17 22:07:21.199935
+S360,Tesla Parts Ltd,Tyre,475,In Transit,13,California,2069,56,2026-05-13 22:07:21.199935
+S361,Bosch Mobility,Tyre,237,In Transit,4,California,9605,29,2026-05-03 22:07:21.199935
+S362,Tesla Parts Ltd,Tyre,385,In Transit,9,California,1293,13,2026-05-10 22:07:21.199935
+S363,Mahindra Logistics,EV Battery,428,Delivered,13,California,4135,32,2026-04-24 22:07:21.199935
+S364,Bosch Mobility,Motor Controller,461,Delivered,6,California,6662,49,2026-04-29 22:07:21.199935
+S365,Bosch Mobility,Sensor Module,133,In Transit,9,California,2853,74,2026-05-09 22:07:21.199935
+S366,Bosch Mobility,EV Battery,79,Delayed,2,New York,2633,54,2026-04-26 22:07:21.199935
+S367,Mahindra Logistics,EV Battery,257,Delayed,10,Toronto,4220,52,2026-05-01 22:07:21.199935
+S368,Mahindra Logistics,EV Battery,309,Delayed,14,California,6259,76,2026-04-25 22:07:21.199935
+S369,Continental Supply,Motor Controller,102,In Transit,1,Chicago,5681,30,2026-04-25 22:07:21.199935
+S370,Bosch Mobility,EV Battery,52,Delivered,10,Dallas,5661,80,2026-05-01 22:07:21.199935
+S371,Mahindra Logistics,Sensor Module,119,Delivered,5,California,5259,28,2026-05-07 22:07:21.199935
+S372,Mahindra Logistics,Motor Controller,290,Delayed,5,California,2298,23,2026-05-06 22:07:21.199935
+S373,Tata Components,Sensor Module,484,In Transit,5,Toronto,7354,64,2026-04-20 22:07:21.199935
+S374,Bosch Mobility,Brake System,500,In Transit,9,Toronto,6865,60,2026-04-30 22:07:21.199935
+S375,Mahindra Logistics,Brake System,294,In Transit,8,California,8953,21,2026-04-23 22:07:21.199935
+S376,Continental Supply,Sensor Module,248,Delayed,9,California,4771,49,2026-04-30 22:07:21.199935
+S377,Continental Supply,EV Battery,192,Delivered,1,Toronto,9416,89,2026-05-01 22:07:21.199935
+S378,Tata Components,Motor Controller,186,In Transit,12,California,9860,66,2026-05-06 22:07:21.199935
+S379,Tesla Parts Ltd,Motor Controller,428,In Transit,14,New York,8626,21,2026-05-14 22:07:21.199935
+S380,Tata Components,Sensor Module,282,In Transit,3,Dallas,1255,52,2026-04-28 22:07:21.199935
+S381,Bosch Mobility,Motor Controller,146,Delivered,8,Toronto,9131,93,2026-05-01 22:07:21.199935
+S382,Continental Supply,Tyre,438,In Transit,9,Chicago,5143,32,2026-04-28 22:07:21.199935
+S383,Tesla Parts Ltd,Tyre,348,Delayed,5,Chicago,3501,10,2026-05-10 22:07:21.199935
+S384,Tata Components,EV Battery,476,Delivered,12,New York,3027,21,2026-05-07 22:07:21.199935
+S385,Mahindra Logistics,Tyre,445,Delayed,13,California,6386,86,2026-05-10 22:07:21.199935
+S386,Continental Supply,Brake System,87,In Transit,11,New York,2390,97,2026-05-07 22:07:21.199935
+S387,Tesla Parts Ltd,Brake System,361,Delivered,7,California,2110,57,2026-04-21 22:07:21.199935
+S388,Tata Components,Motor Controller,332,In Transit,1,Chicago,2737,20,2026-05-06 22:07:21.199935
+S389,Continental Supply,Motor Controller,324,In Transit,15,Dallas,8235,57,2026-04-22 22:07:21.199935
+S390,Continental Supply,Brake System,56,Delivered,7,Dallas,3276,35,2026-05-11 22:07:21.199935
+S391,Tesla Parts Ltd,Motor Controller,184,In Transit,15,Toronto,9797,74,2026-04-18 22:07:21.199935
+S392,Tata Components,Brake System,311,In Transit,7,Toronto,7904,72,2026-04-29 22:07:21.199935
+S393,Bosch Mobility,Motor Controller,300,Delivered,3,Chicago,9961,29,2026-04-20 22:07:21.199935
+S394,Tata Components,Tyre,144,Delayed,6,Dallas,5062,77,2026-05-16 22:07:21.199935
+S395,Mahindra Logistics,EV Battery,340,Delivered,14,New York,8526,34,2026-05-11 22:07:21.199935
+S396,Tesla Parts Ltd,EV Battery,59,Delivered,10,California,1627,53,2026-05-10 22:07:21.199935
+S397,Tesla Parts Ltd,Tyre,278,Delayed,13,Toronto,4927,87,2026-05-08 22:07:21.199935
+S398,Bosch Mobility,Brake System,93,Delayed,3,Toronto,4620,95,2026-05-13 22:07:21.199935
+S399,Tata Components,Tyre,428,Delivered,14,Chicago,8712,54,2026-05-12 22:07:21.199935
+S400,Tata Components,Tyre,69,In Transit,14,New York,5410,81,2026-04-27 22:07:21.199935
+S401,Mahindra Logistics,Sensor Module,76,Delivered,12,Chicago,8591,15,2026-05-06 22:07:21.199935
+S402,Tata Components,EV Battery,295,Delayed,11,Toronto,9893,23,2026-05-03 22:07:21.199935
+S403,Bosch Mobility,Tyre,163,Delayed,15,Chicago,3474,29,2026-04-26 22:07:21.199935
+S404,Bosch Mobility,Brake System,409,Delayed,8,Toronto,6513,95,2026-05-06 22:07:21.199935
+S405,Tesla Parts Ltd,Motor Controller,167,In Transit,4,Chicago,6889,81,2026-04-22 22:07:21.199935
+S406,Bosch Mobility,EV Battery,85,In Transit,2,California,5063,68,2026-04-23 22:07:21.199935
+S407,Tesla Parts Ltd,Motor Controller,75,Delivered,14,Toronto,1365,98,2026-05-10 22:07:21.199935
+S408,Tesla Parts Ltd,Brake System,266,Delivered,15,New York,5546,45,2026-05-12 22:07:21.199935
+S409,Continental Supply,Motor Controller,459,In Transit,15,Chicago,8749,46,2026-05-16 22:07:21.199935
+S410,Continental Supply,EV Battery,107,Delivered,13,Toronto,9869,36,2026-04-20 22:07:21.199935
+S411,Continental Supply,Tyre,485,Delayed,2,New York,7579,16,2026-04-23 22:07:21.199935
+S412,Continental Supply,Tyre,204,Delayed,6,Dallas,4087,65,2026-04-26 22:07:21.199935
+S413,Tata Components,Brake System,364,Delayed,8,Dallas,6767,57,2026-05-02 22:07:21.199935
+S414,Continental Supply,Tyre,70,In Transit,11,California,4722,51,2026-04-29 22:07:21.199935
+S415,Continental Supply,Brake System,92,In Transit,3,Toronto,3788,31,2026-05-15 22:07:21.199935
+S416,Tesla Parts Ltd,EV Battery,297,Delivered,1,Dallas,3986,39,2026-05-14 22:07:21.199935
+S417,Bosch Mobility,Tyre,232,Delayed,15,California,9790,64,2026-05-01 22:07:21.199935
+S418,Continental Supply,Motor Controller,267,Delivered,14,Dallas,9305,90,2026-04-19 22:07:21.199935
+S419,Continental Supply,Sensor Module,81,In Transit,14,Dallas,4552,99,2026-05-17 22:07:21.199935
+S420,Mahindra Logistics,EV Battery,139,In Transit,5,Dallas,8950,74,2026-05-12 22:07:21.199935
+S421,Tesla Parts Ltd,Tyre,470,Delivered,7,California,2340,57,2026-04-23 22:07:21.199935
+S422,Continental Supply,Motor Controller,183,In Transit,13,Chicago,9186,27,2026-05-09 22:07:21.199935
+S423,Bosch Mobility,Motor Controller,445,Delivered,15,Toronto,3875,55,2026-05-15 22:07:21.199935
+S424,Bosch Mobility,Tyre,63,Delivered,2,Toronto,2911,99,2026-05-05 22:07:21.199935
+S425,Mahindra Logistics,Motor Controller,413,Delayed,1,New York,7979,12,2026-05-08 22:07:21.199935
+S426,Continental Supply,Sensor Module,205,Delivered,8,New York,7266,21,2026-04-25 22:07:21.199935
+S427,Tata Components,Tyre,104,Delivered,4,New York,2118,22,2026-05-03 22:07:21.199935
+S428,Tesla Parts Ltd,Motor Controller,428,Delayed,6,Toronto,1914,32,2026-05-09 22:07:21.199935
+S429,Tesla Parts Ltd,Sensor Module,252,In Transit,10,Chicago,3148,54,2026-05-16 22:07:21.199935
+S430,Continental Supply,Tyre,148,Delivered,13,California,8413,93,2026-05-17 22:07:21.199935
+S431,Tesla Parts Ltd,Brake System,258,Delayed,9,Toronto,7121,96,2026-04-23 22:07:21.199935
+S432,Continental Supply,Sensor Module,136,Delayed,10,New York,3399,44,2026-05-03 22:07:21.199935
+S433,Bosch Mobility,Tyre,231,In Transit,3,California,2323,51,2026-04-17 22:07:21.199935
+S434,Tesla Parts Ltd,Tyre,251,Delayed,14,California,9184,67,2026-04-24 22:07:21.199935
+S435,Tata Components,Sensor Module,221,Delayed,10,Dallas,5061,72,2026-04-17 22:07:21.199935
+S436,Tata Components,Brake System,86,In Transit,15,Chicago,8990,84,2026-05-07 22:07:21.199935
+S437,Tata Components,Sensor Module,260,In Transit,6,Dallas,5607,17,2026-04-26 22:07:21.199935
+S438,Tesla Parts Ltd,Brake System,157,In Transit,11,Toronto,7978,98,2026-04-22 22:07:21.199935
+S439,Tata Components,Brake System,179,In Transit,6,California,9943,51,2026-04-19 22:07:21.199935
+S440,Mahindra Logistics,Brake System,101,Delivered,1,New York,5070,68,2026-04-17 22:07:21.199935
+S441,Tata Components,EV Battery,261,Delivered,2,New York,3990,42,2026-05-14 22:07:21.199935
+S442,Continental Supply,Tyre,277,Delayed,9,Dallas,9586,49,2026-04-28 22:07:21.199935
+S443,Bosch Mobility,EV Battery,73,Delivered,13,Toronto,1449,87,2026-04-28 22:07:21.199935
+S444,Tesla Parts Ltd,Tyre,86,Delivered,5,New York,6175,70,2026-05-04 22:07:21.199935
+S445,Tata Components,Motor Controller,417,In Transit,14,California,2512,85,2026-05-04 22:07:21.199935
+S446,Bosch Mobility,Tyre,428,Delayed,10,Dallas,3339,97,2026-05-08 22:07:21.199935
+S447,Mahindra Logistics,Motor Controller,454,In Transit,14,Dallas,9530,77,2026-05-03 22:07:21.199935
+S448,Tesla Parts Ltd,Brake System,295,Delayed,6,Toronto,7611,27,2026-05-07 22:07:21.199935
+S449,Tata Components,Sensor Module,291,Delivered,8,California,5998,62,2026-04-25 22:07:21.199935
+S450,Continental Supply,Motor Controller,254,Delayed,2,California,4400,26,2026-04-22 22:07:21.199935
+S451,Continental Supply,Motor Controller,150,In Transit,2,Chicago,2108,49,2026-05-14 22:07:21.199935
+S452,Mahindra Logistics,Motor Controller,429,Delayed,11,Chicago,8115,52,2026-05-02 22:07:21.199935
+S453,Tesla Parts Ltd,EV Battery,336,Delivered,10,California,4129,98,2026-04-30 22:07:21.199935
+S454,Continental Supply,Tyre,71,Delayed,7,California,7058,66,2026-05-07 22:07:21.199935
+S455,Tata Components,Tyre,137,Delayed,7,New York,8166,82,2026-04-24 22:07:21.199935
+S456,Continental Supply,EV Battery,228,Delayed,14,New York,2896,57,2026-05-16 22:07:21.199935
+S457,Tata Components,EV Battery,196,Delayed,8,Dallas,7495,26,2026-04-25 22:07:21.199935
+S458,Continental Supply,Motor Controller,69,Delayed,6,New York,5329,76,2026-04-23 22:07:21.199935
+S459,Bosch Mobility,EV Battery,130,Delayed,15,Toronto,9394,92,2026-04-27 22:07:21.199935
+S460,Mahindra Logistics,Tyre,209,In Transit,13,Dallas,1248,25,2026-04-29 22:07:21.199935
+S461,Mahindra Logistics,Motor Controller,81,Delivered,1,Toronto,1023,73,2026-04-23 22:07:21.199935
+S462,Bosch Mobility,Brake System,402,Delayed,12,Toronto,9674,88,2026-05-05 22:07:21.199935
+S463,Continental Supply,Sensor Module,479,Delayed,6,New York,9015,29,2026-05-13 22:07:21.199935
+S464,Tata Components,EV Battery,451,In Transit,7,New York,5974,46,2026-05-11 22:07:21.199935
+S465,Continental Supply,Motor Controller,368,In Transit,5,New York,3855,48,2026-05-16 22:07:21.199935
+S466,Mahindra Logistics,Motor Controller,320,In Transit,15,New York,1500,97,2026-04-22 22:07:21.199935
+S467,Tata Components,Tyre,414,Delayed,4,Chicago,2735,12,2026-05-04 22:07:21.199935
+S468,Bosch Mobility,Brake System,381,In Transit,12,California,3393,89,2026-05-05 22:07:21.199935
+S469,Bosch Mobility,Motor Controller,158,Delayed,14,New York,9704,41,2026-04-22 22:07:21.199935
+S470,Tesla Parts Ltd,Motor Controller,203,Delivered,13,California,6596,58,2026-04-24 22:07:21.199935
+S471,Tata Components,Motor Controller,193,Delayed,12,Toronto,3904,81,2026-05-04 22:07:21.199935
+S472,Mahindra Logistics,Tyre,111,Delayed,8,Chicago,4722,85,2026-05-16 22:07:21.199935
+S473,Continental Supply,Sensor Module,265,In Transit,11,Chicago,2852,62,2026-04-19 22:07:21.199935
+S474,Tesla Parts Ltd,Brake System,163,Delivered,9,Dallas,8567,74,2026-05-04 22:07:21.199935
+S475,Bosch Mobility,EV Battery,335,In Transit,2,California,2624,91,2026-05-12 22:07:21.199935
+S476,Tesla Parts Ltd,Motor Controller,276,In Transit,5,Dallas,8334,75,2026-05-11 22:07:21.199935
+S477,Tesla Parts Ltd,Motor Controller,342,Delayed,1,Toronto,8820,61,2026-05-12 22:07:21.199935
+S478,Tesla Parts Ltd,Brake System,117,Delayed,5,Chicago,7202,82,2026-05-02 22:07:21.199935
+S479,Tata Components,EV Battery,154,In Transit,6,Dallas,5063,68,2026-05-17 22:07:21.199935
+S480,Bosch Mobility,EV Battery,265,In Transit,11,Toronto,1280,66,2026-05-13 22:07:21.199935
+S481,Continental Supply,Brake System,259,In Transit,12,Toronto,1253,53,2026-05-08 22:07:21.199935
+S482,Bosch Mobility,Brake System,374,Delayed,2,Chicago,1106,13,2026-04-25 22:07:21.199935
+S483,Continental Supply,Sensor Module,146,Delayed,1,Toronto,9360,46,2026-04-25 22:07:21.199935
+S484,Bosch Mobility,Motor Controller,316,In Transit,12,Toronto,8784,95,2026-04-30 22:07:21.199935
+S485,Tesla Parts Ltd,Brake System,168,Delayed,8,California,3813,52,2026-05-14 22:07:21.199935
+S486,Continental Supply,Motor Controller,126,Delayed,10,Toronto,5704,14,2026-04-30 22:07:21.199935
+S487,Tata Components,Motor Controller,334,Delayed,6,New York,1286,27,2026-04-24 22:07:21.199935
+S488,Continental Supply,EV Battery,415,Delivered,12,Chicago,7272,64,2026-05-03 22:07:21.199935
+S489,Mahindra Logistics,Sensor Module,329,Delivered,8,New York,5646,83,2026-05-04 22:07:21.199935
+S490,Tata Components,Sensor Module,126,Delivered,8,California,4347,79,2026-05-14 22:07:21.199935
+S491,Continental Supply,Brake System,421,Delayed,9,Chicago,9383,29,2026-04-30 22:07:21.199935
+S492,Continental Supply,Brake System,274,In Transit,4,California,9400,90,2026-04-29 22:07:21.199935
+S493,Continental Supply,Brake System,245,In Transit,6,California,4097,12,2026-05-14 22:07:21.199935
+S494,Mahindra Logistics,Sensor Module,77,In Transit,4,California,5441,73,2026-05-07 22:07:21.199935
+S495,Tesla Parts Ltd,Motor Controller,126,In Transit,7,California,6551,72,2026-04-18 22:07:21.199935
+S496,Bosch Mobility,Sensor Module,440,In Transit,15,Dallas,8290,77,2026-04-30 22:07:21.199935
+S497,Mahindra Logistics,EV Battery,171,In Transit,1,New York,3373,11,2026-04-29 22:07:21.199935
+S498,Mahindra Logistics,EV Battery,378,Delayed,9,Dallas,3578,51,2026-04-28 22:07:21.199935
+S499,Tesla Parts Ltd,Motor Controller,364,In Transit,2,Chicago,3925,68,2026-05-01 22:07:21.199935
+S500,Tesla Parts Ltd,Brake System,150,In Transit,6,Chicago,2860,78,2026-05-09 22:07:21.199935
+S501,Bosch Mobility,Brake System,394,In Transit,6,New York,4428,88,2026-05-11 22:07:21.199935
+S502,Mahindra Logistics,Sensor Module,476,In Transit,12,California,1272,88,2026-04-23 22:07:21.199935
+S503,Tata Components,EV Battery,100,In Transit,14,Toronto,4480,25,2026-05-16 22:07:21.199935
+S504,Tata Components,Tyre,456,Delayed,1,Chicago,6753,54,2026-05-04 22:07:21.199935
+S505,Continental Supply,EV Battery,92,In Transit,5,New York,7170,62,2026-04-24 22:07:21.199935
+S506,Mahindra Logistics,EV Battery,348,Delayed,5,California,3823,75,2026-05-01 22:07:21.199935
+S507,Tesla Parts Ltd,Brake System,491,In Transit,14,Toronto,2887,19,2026-05-13 22:07:21.199935
+S508,Bosch Mobility,Sensor Module,476,Delayed,7,Chicago,3917,70,2026-05-09 22:07:21.199935
+S509,Tata Components,Brake System,448,Delivered,8,California,8577,20,2026-04-17 22:07:21.199935
+S510,Continental Supply,Brake System,58,In Transit,10,California,4088,90,2026-04-24 22:07:21.199935
+S511,Mahindra Logistics,Motor Controller,140,In Transit,14,California,9349,25,2026-04-27 22:07:21.199935
+S512,Bosch Mobility,Sensor Module,56,Delayed,8,New York,2528,81,2026-05-03 22:07:21.199935
+S513,Tesla Parts Ltd,Motor Controller,307,In Transit,13,Dallas,6626,89,2026-04-28 22:07:21.199935
+S514,Mahindra Logistics,Motor Controller,489,In Transit,10,Toronto,8832,99,2026-05-06 22:07:21.199935
+S515,Mahindra Logistics,Tyre,197,In Transit,2,Toronto,7306,57,2026-05-13 22:07:21.199935
+S516,Continental Supply,Sensor Module,479,Delayed,6,New York,9869,93,2026-05-03 22:07:21.199935
+S517,Tesla Parts Ltd,EV Battery,122,Delayed,1,New York,3583,29,2026-04-30 22:07:21.199935
+S518,Continental Supply,Motor Controller,449,Delivered,6,Toronto,1114,63,2026-04-21 22:07:21.199935
+S519,Mahindra Logistics,EV Battery,134,Delivered,1,Chicago,4380,92,2026-05-11 22:07:21.199935
+S520,Tata Components,Sensor Module,278,Delayed,5,Toronto,5190,64,2026-04-30 22:07:21.199935
+S521,Tata Components,Motor Controller,343,In Transit,12,Toronto,5385,40,2026-05-08 22:07:21.199935
+S522,Mahindra Logistics,Motor Controller,97,In Transit,9,New York,5362,47,2026-05-01 22:07:21.199935
+S523,Tesla Parts Ltd,Sensor Module,336,In Transit,2,Dallas,4384,93,2026-04-20 22:07:21.199935
+S524,Mahindra Logistics,Sensor Module,137,Delivered,10,Dallas,4866,50,2026-04-28 22:07:21.199935
+S525,Mahindra Logistics,Sensor Module,235,Delayed,1,New York,7936,19,2026-05-15 22:07:21.199935
+S526,Continental Supply,Motor Controller,96,Delayed,12,Toronto,5702,42,2026-05-14 22:07:21.199935
+S527,Tata Components,Sensor Module,193,Delivered,1,Dallas,5775,30,2026-05-16 22:07:21.199935
+S528,Tesla Parts Ltd,Tyre,449,In Transit,6,New York,2236,30,2026-04-28 22:07:21.199935
+S529,Tesla Parts Ltd,Sensor Module,85,Delivered,1,New York,2307,17,2026-04-28 22:07:21.199935
+S530,Tata Components,Sensor Module,178,In Transit,11,Chicago,2440,90,2026-04-17 22:07:21.199935
+S531,Tata Components,Brake System,186,In Transit,4,Chicago,8286,24,2026-05-03 22:07:21.199935
+S532,Continental Supply,Sensor Module,109,In Transit,8,Chicago,7316,93,2026-05-05 22:07:21.199935
+S533,Tesla Parts Ltd,EV Battery,156,Delivered,10,Toronto,1346,89,2026-05-05 22:07:21.199935
+S534,Tata Components,Sensor Module,265,Delayed,11,California,7744,60,2026-05-16 22:07:21.199935
+S535,Continental Supply,Tyre,192,In Transit,6,New York,7410,16,2026-05-02 22:07:21.199935
+S536,Mahindra Logistics,Motor Controller,244,In Transit,11,California,2048,19,2026-04-17 22:07:21.199935
+S537,Mahindra Logistics,Motor Controller,267,In Transit,1,New York,9827,82,2026-04-26 22:07:21.199935
+S538,Continental Supply,Brake System,269,In Transit,15,New York,3244,87,2026-05-16 22:07:21.199935
+S539,Bosch Mobility,Brake System,362,Delayed,8,Toronto,9589,90,2026-05-15 22:07:21.199935
+S540,Tata Components,EV Battery,413,Delivered,3,Toronto,9302,99,2026-04-27 22:07:21.199935
+S541,Bosch Mobility,Brake System,246,In Transit,6,Dallas,5164,92,2026-04-19 22:07:21.199935
+S542,Tesla Parts Ltd,EV Battery,307,In Transit,7,New York,6158,29,2026-04-29 22:07:21.199935
+S543,Mahindra Logistics,Sensor Module,217,In Transit,3,Dallas,8293,31,2026-05-14 22:07:21.199935
+S544,Tesla Parts Ltd,Tyre,277,In Transit,10,Chicago,1355,51,2026-04-18 22:07:21.199935
+S545,Tesla Parts Ltd,Tyre,433,Delayed,8,California,1188,56,2026-05-02 22:07:21.199935
+S546,Mahindra Logistics,Sensor Module,138,In Transit,13,Chicago,8720,95,2026-05-06 22:07:21.199935
+S547,Mahindra Logistics,Brake System,457,In Transit,9,Toronto,9515,93,2026-04-21 22:07:21.199935
+S548,Tesla Parts Ltd,Brake System,130,Delivered,9,Dallas,9876,46,2026-05-02 22:07:21.199935
+S549,Continental Supply,Sensor Module,136,Delivered,14,Dallas,5690,43,2026-04-17 22:07:21.199935
+S550,Tata Components,Motor Controller,227,Delivered,13,New York,4665,25,2026-05-02 22:07:21.199935
+S551,Tata Components,EV Battery,113,Delivered,5,Toronto,6586,11,2026-05-16 22:07:21.199935
+S552,Tesla Parts Ltd,EV Battery,449,Delayed,1,New York,4689,71,2026-04-30 22:07:21.199935
+S553,Tata Components,Sensor Module,271,Delayed,1,Toronto,3532,97,2026-05-10 22:07:21.199935
+S554,Continental Supply,Sensor Module,212,Delivered,7,Chicago,9634,69,2026-04-23 22:07:21.199935
+S555,Bosch Mobility,Tyre,354,Delivered,5,Toronto,4748,32,2026-04-27 22:07:21.199935
+S556,Bosch Mobility,Brake System,172,In Transit,11,California,9448,35,2026-05-15 22:07:21.199935
+S557,Mahindra Logistics,Motor Controller,452,In Transit,7,Dallas,9558,36,2026-04-17 22:07:21.199935
+S558,Tesla Parts Ltd,Sensor Module,306,Delayed,10,Toronto,9971,26,2026-04-29 22:07:21.199935
+S559,Tata Components,EV Battery,238,Delivered,2,California,6041,30,2026-05-13 22:07:21.199935
+S560,Bosch Mobility,Motor Controller,221,Delayed,5,Chicago,2608,13,2026-05-04 22:07:21.199935
+S561,Mahindra Logistics,Sensor Module,203,Delayed,4,Dallas,1315,57,2026-04-18 22:07:21.199935
+S562,Tesla Parts Ltd,Motor Controller,327,Delayed,10,New York,4494,55,2026-04-23 22:07:21.199935
+S563,Mahindra Logistics,Sensor Module,472,Delivered,8,New York,6395,33,2026-05-04 22:07:21.199935
+S564,Tata Components,EV Battery,226,Delivered,10,California,4479,42,2026-04-30 22:07:21.199935
+S565,Mahindra Logistics,Brake System,150,Delivered,15,Toronto,1953,59,2026-05-02 22:07:21.199935
+S566,Continental Supply,Sensor Module,314,In Transit,2,California,2574,41,2026-04-30 22:07:21.199935
+S567,Tata Components,Motor Controller,381,Delivered,8,California,4470,66,2026-04-19 22:07:21.199935
+S568,Bosch Mobility,EV Battery,375,Delivered,6,Chicago,8633,73,2026-04-30 22:07:21.199935
+S569,Mahindra Logistics,Brake System,216,In Transit,14,Chicago,7526,68,2026-04-25 22:07:21.199935
+S570,Tata Components,Tyre,459,In Transit,8,Dallas,3075,79,2026-05-14 22:07:21.199935
+S571,Tata Components,Sensor Module,395,Delayed,14,Toronto,4670,66,2026-04-18 22:07:21.199935
+S572,Continental Supply,Motor Controller,473,Delayed,2,Dallas,5080,39,2026-04-21 22:07:21.199935
+S573,Continental Supply,EV Battery,396,Delivered,7,Chicago,4996,94,2026-05-07 22:07:21.199935
+S574,Bosch Mobility,Motor Controller,246,In Transit,14,New York,7672,31,2026-04-24 22:07:21.199935
+S575,Continental Supply,Brake System,317,Delayed,15,New York,4365,36,2026-05-12 22:07:21.199935
+S576,Tesla Parts Ltd,EV Battery,286,Delayed,11,California,1054,97,2026-04-29 22:07:21.199935
+S577,Continental Supply,Brake System,374,Delivered,11,Dallas,6844,30,2026-04-20 22:07:21.199935
+S578,Tesla Parts Ltd,Sensor Module,187,Delayed,10,Chicago,5617,95,2026-04-19 22:07:21.199935
+S579,Bosch Mobility,Motor Controller,244,Delayed,15,Dallas,8220,97,2026-05-10 22:07:21.199935
+S580,Bosch Mobility,Brake System,326,In Transit,4,Chicago,1704,84,2026-05-02 22:07:21.199935
+S581,Mahindra Logistics,Motor Controller,389,Delayed,12,Chicago,2364,29,2026-04-21 22:07:21.199935
+S582,Bosch Mobility,Sensor Module,97,Delivered,3,Toronto,3264,36,2026-05-07 22:07:21.199935
+S583,Tata Components,Brake System,112,In Transit,15,Chicago,2743,78,2026-04-20 22:07:21.199935
+S584,Tesla Parts Ltd,Sensor Module,100,Delayed,7,Chicago,7621,92,2026-05-17 22:07:21.199935
+S585,Bosch Mobility,Motor Controller,421,Delayed,2,Chicago,4451,25,2026-05-13 22:07:21.199935
+S586,Tesla Parts Ltd,Tyre,500,In Transit,11,New York,3767,56,2026-05-14 22:07:21.199935
+S587,Tesla Parts Ltd,Motor Controller,114,In Transit,15,New York,2400,25,2026-05-15 22:07:21.199935
+S588,Tata Components,Motor Controller,211,Delayed,6,California,7701,99,2026-04-25 22:07:21.199935
+S589,Tata Components,Motor Controller,61,Delayed,12,New York,2785,70,2026-05-04 22:07:21.199935
+S590,Tata Components,Tyre,163,Delayed,5,New York,2420,94,2026-04-28 22:07:21.199935
+S591,Tesla Parts Ltd,Sensor Module,103,Delivered,12,New York,5012,72,2026-05-08 22:07:21.199935
+S592,Mahindra Logistics,EV Battery,403,Delayed,9,California,9871,91,2026-05-11 22:07:21.199935
+S593,Bosch Mobility,Motor Controller,307,In Transit,3,California,8401,34,2026-04-24 22:07:21.199935
+S594,Bosch Mobility,Motor Controller,457,In Transit,11,Toronto,3222,10,2026-04-29 22:07:21.199935
+S595,Tata Components,Sensor Module,318,Delivered,4,Dallas,8497,66,2026-04-18 22:07:21.199935
+S596,Continental Supply,Motor Controller,242,Delayed,8,Chicago,7354,53,2026-04-24 22:07:21.199935
+S597,Tata Components,EV Battery,486,Delayed,5,New York,4051,40,2026-05-13 22:07:21.199935
+S598,Tesla Parts Ltd,Tyre,140,In Transit,4,New York,3399,47,2026-04-19 22:07:21.199935
+S599,Tesla Parts Ltd,Motor Controller,427,Delivered,13,New York,1049,14,2026-05-09 22:07:21.199935
+S600,Tata Components,Tyre,431,Delayed,4,New York,3243,27,2026-04-25 22:07:21.199935
+S601,Continental Supply,EV Battery,411,Delivered,7,Toronto,5898,43,2026-05-03 22:07:21.199935
+S602,Mahindra Logistics,Sensor Module,69,In Transit,14,Toronto,9119,20,2026-05-17 22:07:21.199935
+S603,Tesla Parts Ltd,EV Battery,196,Delayed,15,New York,7351,27,2026-04-23 22:07:21.199935
+S604,Mahindra Logistics,Tyre,242,Delivered,9,Toronto,4844,98,2026-04-25 22:07:21.199935
+S605,Continental Supply,Sensor Module,296,Delivered,11,New York,4507,67,2026-04-30 22:07:21.199935
+S606,Tesla Parts Ltd,Tyre,79,Delivered,12,Dallas,5753,66,2026-04-21 22:07:21.199935
+S607,Tata Components,Motor Controller,61,In Transit,4,Chicago,8756,57,2026-04-19 22:07:21.199935
+S608,Bosch Mobility,Brake System,118,Delivered,13,Dallas,3893,37,2026-05-11 22:07:21.199935
+S609,Bosch Mobility,Brake System,72,Delayed,10,Toronto,4973,86,2026-04-17 22:07:21.199935
+S610,Tata Components,Tyre,392,Delivered,2,Toronto,3818,93,2026-05-17 22:07:21.199935
+S611,Tesla Parts Ltd,Sensor Module,169,Delivered,10,Dallas,5138,61,2026-04-24 22:07:21.199935
+S612,Bosch Mobility,Sensor Module,94,Delayed,12,Toronto,2906,68,2026-04-30 22:07:21.199935
+S613,Bosch Mobility,Brake System,319,In Transit,5,Dallas,5954,63,2026-04-25 22:07:21.199935
+S614,Bosch Mobility,Motor Controller,293,In Transit,1,New York,3703,28,2026-04-21 22:07:21.199935
+S615,Tata Components,Brake System,156,Delivered,15,Toronto,4889,52,2026-05-01 22:07:21.199935
+S616,Tesla Parts Ltd,EV Battery,382,In Transit,11,Chicago,8047,70,2026-04-22 22:07:21.199935
+S617,Bosch Mobility,Motor Controller,106,Delayed,12,New York,8376,52,2026-05-08 22:07:21.199935
+S618,Bosch Mobility,Tyre,167,Delayed,13,Toronto,1186,26,2026-05-09 22:07:21.199935
+S619,Tesla Parts Ltd,Tyre,297,In Transit,14,New York,1534,26,2026-04-21 22:07:21.199935
+S620,Tata Components,Sensor Module,422,Delayed,11,Chicago,2031,61,2026-04-27 22:07:21.199935
+S621,Tata Components,Motor Controller,64,Delayed,9,Chicago,9862,62,2026-05-16 22:07:21.199935
+S622,Mahindra Logistics,Sensor Module,374,Delivered,11,California,4012,60,2026-04-25 22:07:21.199935
+S623,Bosch Mobility,Brake System,259,Delivered,7,New York,5597,63,2026-05-17 22:07:21.199935
+S624,Tata Components,EV Battery,139,Delayed,11,Chicago,2334,69,2026-04-25 22:07:21.199935
+S625,Mahindra Logistics,Tyre,199,In Transit,8,New York,8864,31,2026-05-03 22:07:21.199935
+S626,Tata Components,Brake System,416,Delayed,8,California,9696,89,2026-05-09 22:07:21.199935
+S627,Tesla Parts Ltd,Tyre,121,Delayed,5,Chicago,7119,43,2026-04-19 22:07:21.199935
+S628,Bosch Mobility,EV Battery,445,In Transit,11,California,8396,30,2026-04-24 22:07:21.199935
+S629,Continental Supply,Brake System,444,Delivered,13,New York,9264,94,2026-05-17 22:07:21.199935
+S630,Mahindra Logistics,Sensor Module,421,In Transit,14,New York,7399,97,2026-05-03 22:07:21.199935
+S631,Continental Supply,Brake System,84,Delayed,15,Chicago,4290,48,2026-04-30 22:07:21.199935
+S632,Mahindra Logistics,Motor Controller,366,In Transit,6,Toronto,3831,11,2026-04-26 22:07:21.199935
+S633,Mahindra Logistics,Motor Controller,296,In Transit,1,Chicago,9877,64,2026-05-09 22:07:21.199935
+S634,Mahindra Logistics,Brake System,481,Delayed,12,Toronto,8788,50,2026-04-23 22:07:21.199935
+S635,Bosch Mobility,Sensor Module,340,Delayed,13,Dallas,3593,27,2026-04-30 22:07:21.199935
+S636,Mahindra Logistics,Tyre,389,Delivered,13,Chicago,5551,71,2026-05-05 22:07:21.199935
+S637,Continental Supply,Motor Controller,138,Delivered,3,Chicago,9025,24,2026-05-01 22:07:21.199935
+S638,Tesla Parts Ltd,Tyre,238,Delivered,8,Chicago,7676,40,2026-04-17 22:07:21.199935
+S639,Tesla Parts Ltd,Motor Controller,64,In Transit,10,California,1668,57,2026-05-15 22:07:21.199935
+S640,Bosch Mobility,Motor Controller,367,In Transit,15,Chicago,9221,68,2026-05-14 22:07:21.199935
+S641,Continental Supply,EV Battery,438,Delayed,7,Dallas,3863,26,2026-04-29 22:07:21.199935
+S642,Mahindra Logistics,Sensor Module,397,In Transit,1,New York,1520,40,2026-04-19 22:07:21.199935
+S643,Tesla Parts Ltd,EV Battery,255,Delayed,3,Chicago,8726,17,2026-05-09 22:07:21.199935
+S644,Mahindra Logistics,Tyre,91,In Transit,11,Toronto,6106,80,2026-05-15 22:07:21.199935
+S645,Bosch Mobility,EV Battery,87,Delayed,15,New York,7130,94,2026-04-29 22:07:21.199935
+S646,Continental Supply,Tyre,386,Delivered,3,Toronto,2931,86,2026-04-18 22:07:21.199935
+S647,Tesla Parts Ltd,Sensor Module,459,In Transit,6,New York,1836,57,2026-05-16 22:07:21.199935
+S648,Continental Supply,EV Battery,166,In Transit,1,California,2117,46,2026-04-24 22:07:21.199935
+S649,Bosch Mobility,Tyre,416,Delivered,3,California,9767,40,2026-04-21 22:07:21.199935
+S650,Tata Components,EV Battery,321,In Transit,8,Dallas,1454,69,2026-05-01 22:07:21.199935
+S651,Mahindra Logistics,Motor Controller,300,Delivered,5,California,2138,75,2026-05-06 22:07:21.199935
+S652,Mahindra Logistics,Sensor Module,271,In Transit,6,Toronto,5792,48,2026-05-09 22:07:21.199935
+S653,Tata Components,EV Battery,51,Delivered,14,New York,4466,99,2026-04-29 22:07:21.199935
+S654,Tata Components,Sensor Module,314,Delivered,11,New York,7577,57,2026-05-01 22:07:21.199935
+S655,Mahindra Logistics,Tyre,79,In Transit,8,California,4824,93,2026-04-24 22:07:21.199935
+S656,Continental Supply,Sensor Module,128,Delivered,3,Dallas,7322,81,2026-05-13 22:07:21.199935
+S657,Bosch Mobility,Tyre,268,In Transit,1,Chicago,7035,15,2026-05-01 22:07:21.199935
+S658,Mahindra Logistics,Sensor Module,251,Delayed,7,California,1421,27,2026-05-13 22:07:21.199935
+S659,Continental Supply,Sensor Module,452,In Transit,15,New York,6363,45,2026-05-16 22:07:21.199935
+S660,Continental Supply,Motor Controller,402,In Transit,3,California,7837,93,2026-05-08 22:07:21.199935
+S661,Continental Supply,Tyre,240,Delayed,9,New York,4095,13,2026-04-18 22:07:21.199935
+S662,Bosch Mobility,Motor Controller,147,In Transit,10,Dallas,4193,10,2026-04-18 22:07:21.199935
+S663,Tata Components,Sensor Module,172,In Transit,8,California,1372,55,2026-05-01 22:07:21.199935
+S664,Tata Components,Tyre,364,Delayed,8,Dallas,7668,98,2026-04-21 22:07:21.199935
+S665,Continental Supply,Tyre,152,Delivered,14,Chicago,4826,92,2026-04-22 22:07:21.199935
+S666,Mahindra Logistics,Brake System,235,Delivered,8,Toronto,6608,32,2026-04-28 22:07:21.199935
+S667,Mahindra Logistics,Motor Controller,244,In Transit,10,California,6689,12,2026-04-18 22:07:21.199935
+S668,Tata Components,Tyre,56,In Transit,15,Dallas,4299,44,2026-04-23 22:07:21.199935
+S669,Continental Supply,Tyre,270,Delayed,14,Dallas,9526,58,2026-04-18 22:07:21.199935
+S670,Mahindra Logistics,Motor Controller,195,Delayed,8,Toronto,6738,37,2026-05-16 22:07:21.199935
+S671,Tesla Parts Ltd,Motor Controller,409,In Transit,10,Dallas,7708,82,2026-05-11 22:07:21.199935
+S672,Tata Components,Brake System,97,Delivered,5,California,3384,85,2026-04-29 22:07:21.199935
+S673,Continental Supply,Sensor Module,131,Delayed,14,Chicago,9005,97,2026-04-20 22:07:21.199935
+S674,Tesla Parts Ltd,Tyre,314,Delivered,6,Chicago,6983,81,2026-04-19 22:07:21.199935
+S675,Tesla Parts Ltd,Tyre,210,Delivered,14,Dallas,7644,30,2026-05-08 22:07:21.199935
+S676,Tata Components,EV Battery,205,Delayed,3,Toronto,4920,43,2026-04-23 22:07:21.199935
+S677,Bosch Mobility,Tyre,342,Delayed,8,Dallas,1168,20,2026-04-30 22:07:21.199935
+S678,Continental Supply,EV Battery,421,Delayed,11,Chicago,8472,40,2026-05-07 22:07:21.199935
+S679,Bosch Mobility,Tyre,189,Delivered,1,Chicago,4955,74,2026-04-28 22:07:21.199935
+S680,Tata Components,EV Battery,449,Delayed,6,California,1456,66,2026-05-11 22:07:21.199935
+S681,Bosch Mobility,EV Battery,341,In Transit,4,California,2603,20,2026-05-06 22:07:21.199935
+S682,Bosch Mobility,Brake System,158,In Transit,7,Chicago,5260,71,2026-05-06 22:07:21.199935
+S683,Continental Supply,Tyre,305,In Transit,4,Toronto,8004,94,2026-05-04 22:07:21.199935
+S684,Tesla Parts Ltd,Motor Controller,450,Delayed,13,Chicago,3628,98,2026-04-19 22:07:21.199935
+S685,Continental Supply,Sensor Module,112,Delayed,7,Chicago,4182,39,2026-04-20 22:07:21.199935
+S686,Bosch Mobility,Tyre,213,In Transit,1,Toronto,1503,74,2026-04-25 22:07:21.199935
+S687,Bosch Mobility,Sensor Module,57,Delayed,10,Dallas,9799,71,2026-04-30 22:07:21.199935
+S688,Tata Components,Sensor Module,203,Delayed,12,Dallas,6774,99,2026-05-15 22:07:21.199935
+S689,Tata Components,Brake System,456,Delayed,6,Chicago,3142,90,2026-04-26 22:07:21.199935
+S690,Continental Supply,Sensor Module,360,Delayed,4,Dallas,4740,75,2026-04-20 22:07:21.199935
+S691,Mahindra Logistics,Sensor Module,205,In Transit,13,California,7724,28,2026-04-24 22:07:21.199935
+S692,Tesla Parts Ltd,Tyre,141,Delivered,14,Chicago,6772,80,2026-05-06 22:07:21.199935
+S693,Continental Supply,Brake System,63,Delivered,10,Dallas,5364,39,2026-04-25 22:07:21.199935
+S694,Tata Components,Motor Controller,183,In Transit,9,Chicago,1570,75,2026-05-12 22:07:21.199935
+S695,Mahindra Logistics,Motor Controller,248,Delayed,5,California,3879,59,2026-05-13 22:07:21.199935
+S696,Bosch Mobility,Tyre,421,In Transit,4,Chicago,1067,35,2026-05-14 22:07:21.199935
+S697,Tesla Parts Ltd,Tyre,201,In Transit,12,New York,9194,73,2026-04-20 22:07:21.199935
+S698,Bosch Mobility,Brake System,388,Delayed,12,Toronto,6183,50,2026-04-17 22:07:21.199935
+S699,Mahindra Logistics,Tyre,93,Delivered,3,New York,1263,26,2026-05-07 22:07:21.199935
+S700,Mahindra Logistics,EV Battery,325,Delivered,6,California,7255,15,2026-05-02 22:07:21.199935
+S701,Continental Supply,Sensor Module,182,Delivered,3,Toronto,9727,99,2026-05-02 22:07:21.199935
+S702,Tesla Parts Ltd,EV Battery,94,Delivered,15,California,8430,83,2026-04-22 22:07:21.199935
+S703,Mahindra Logistics,Tyre,204,Delivered,11,New York,7945,74,2026-04-20 22:07:21.199935
+S704,Bosch Mobility,Sensor Module,146,Delayed,3,New York,7070,15,2026-05-17 22:07:21.199935
+S705,Tesla Parts Ltd,Sensor Module,287,In Transit,12,California,1465,31,2026-04-20 22:07:21.199935
+S706,Tesla Parts Ltd,Motor Controller,88,Delayed,11,Chicago,5589,18,2026-04-25 22:07:21.199935
+S707,Tata Components,Brake System,471,In Transit,6,New York,9545,80,2026-05-15 22:07:21.199935
+S708,Tata Components,Brake System,151,Delivered,3,New York,8234,95,2026-05-12 22:07:21.199935
+S709,Continental Supply,Motor Controller,491,In Transit,11,California,8043,39,2026-05-07 22:07:21.199935
+S710,Tata Components,Brake System,176,Delayed,7,California,6675,47,2026-04-18 22:07:21.199935
+S711,Bosch Mobility,Tyre,471,Delivered,10,Toronto,4771,67,2026-04-30 22:07:21.199935
+S712,Continental Supply,Sensor Module,491,Delayed,10,California,7420,76,2026-05-14 22:07:21.199935
+S713,Mahindra Logistics,Brake System,135,In Transit,2,Chicago,5217,31,2026-05-02 22:07:21.199935
+S714,Tesla Parts Ltd,Brake System,346,Delivered,2,California,8351,40,2026-04-24 22:07:21.199935
+S715,Tata Components,Motor Controller,238,Delivered,9,New York,3324,83,2026-04-17 22:07:21.199935
+S716,Continental Supply,Sensor Module,273,Delayed,6,California,6334,29,2026-04-27 22:07:21.199935
+S717,Tesla Parts Ltd,Tyre,314,In Transit,14,New York,1981,19,2026-05-06 22:07:21.199935
+S718,Continental Supply,Brake System,319,In Transit,4,California,8860,67,2026-04-19 22:07:21.199935
+S719,Mahindra Logistics,Motor Controller,213,Delayed,4,Chicago,6743,77,2026-05-06 22:07:21.199935
+S720,Tesla Parts Ltd,Brake System,324,Delivered,7,Chicago,1027,28,2026-04-17 22:07:21.199935
+S721,Bosch Mobility,Brake System,422,Delivered,13,California,4634,52,2026-05-04 22:07:21.199935
+S722,Tesla Parts Ltd,Motor Controller,487,Delayed,13,New York,1201,18,2026-04-29 22:07:21.199935
+S723,Mahindra Logistics,Motor Controller,487,In Transit,14,Chicago,9325,94,2026-05-11 22:07:21.199935
+S724,Tata Components,EV Battery,247,Delayed,1,Chicago,9296,54,2026-05-16 22:07:21.199935
+S725,Mahindra Logistics,EV Battery,207,Delayed,1,California,5748,43,2026-05-08 22:07:21.199935
+S726,Mahindra Logistics,Motor Controller,151,Delivered,10,Dallas,8773,37,2026-05-03 22:07:21.199935
+S727,Bosch Mobility,Tyre,335,In Transit,4,Chicago,3402,15,2026-05-11 22:07:21.199935
+S728,Continental Supply,Sensor Module,312,Delivered,4,New York,8819,81,2026-04-18 22:07:21.199935
+S729,Tata Components,EV Battery,194,Delivered,6,Toronto,7994,38,2026-05-03 22:07:21.199935
+S730,Continental Supply,Motor Controller,433,Delivered,15,California,3988,52,2026-05-04 22:07:21.199935
+S731,Bosch Mobility,Sensor Module,68,Delayed,13,New York,5155,54,2026-05-04 22:07:21.199935
+S732,Tata Components,Tyre,233,In Transit,12,California,4512,46,2026-05-05 22:07:21.199935
+S733,Tesla Parts Ltd,EV Battery,214,Delivered,11,New York,9804,48,2026-05-11 22:07:21.199935
+S734,Tesla Parts Ltd,EV Battery,276,In Transit,14,California,4433,66,2026-05-05 22:07:21.199935
+S735,Bosch Mobility,Sensor Module,378,Delayed,9,New York,6761,21,2026-05-09 22:07:21.199935
+S736,Mahindra Logistics,Sensor Module,269,In Transit,1,California,9274,71,2026-05-16 22:07:21.199935
+S737,Bosch Mobility,Tyre,366,Delivered,13,California,6543,17,2026-04-24 22:07:21.199935
+S738,Mahindra Logistics,Motor Controller,378,Delayed,6,Chicago,2697,47,2026-04-25 22:07:21.199935
+S739,Continental Supply,Tyre,54,Delivered,7,Toronto,9804,84,2026-04-19 22:07:21.199935
+S740,Tesla Parts Ltd,Tyre,440,Delivered,11,California,1519,94,2026-05-10 22:07:21.199935
+S741,Tata Components,Motor Controller,488,Delivered,14,Toronto,9894,85,2026-05-12 22:07:21.199935
+S742,Mahindra Logistics,Motor Controller,473,In Transit,7,California,7361,91,2026-04-17 22:07:21.199935
+S743,Tata Components,Brake System,256,Delayed,14,California,5400,11,2026-05-09 22:07:21.199935
+S744,Continental Supply,Sensor Module,162,Delivered,5,California,6626,19,2026-04-30 22:07:21.199935
+S745,Bosch Mobility,EV Battery,324,Delayed,2,California,1515,41,2026-04-18 22:07:21.199935
+S746,Continental Supply,Brake System,363,Delayed,5,Toronto,1726,41,2026-05-05 22:07:21.199935
+S747,Continental Supply,Motor Controller,103,Delivered,8,Toronto,1822,18,2026-04-22 22:07:21.199935
+S748,Mahindra Logistics,Sensor Module,323,In Transit,5,Dallas,4295,25,2026-04-30 22:07:21.199935
+S749,Mahindra Logistics,Brake System,288,Delivered,8,Chicago,9611,88,2026-05-12 22:07:21.199935
+S750,Continental Supply,EV Battery,225,In Transit,3,California,4326,78,2026-04-25 22:07:21.199935
+S751,Continental Supply,Motor Controller,418,In Transit,2,New York,2404,13,2026-05-12 22:07:21.199935
+S752,Mahindra Logistics,Sensor Module,222,In Transit,7,California,1156,64,2026-05-04 22:07:21.199935
+S753,Tesla Parts Ltd,Tyre,473,In Transit,3,Dallas,7311,52,2026-05-04 22:07:21.199935
+S754,Mahindra Logistics,Sensor Module,148,Delivered,14,California,4724,99,2026-05-17 22:07:21.199935
+S755,Mahindra Logistics,EV Battery,317,Delivered,7,Toronto,3902,35,2026-04-22 22:07:21.199935
+S756,Tesla Parts Ltd,EV Battery,500,Delivered,1,Chicago,9946,25,2026-04-28 22:07:21.199935
+S757,Continental Supply,Tyre,145,Delivered,1,New York,8304,38,2026-05-03 22:07:21.199935
+S758,Bosch Mobility,Brake System,413,Delivered,8,Toronto,9675,97,2026-04-20 22:07:21.199935
+S759,Tata Components,Tyre,447,Delayed,15,California,4528,88,2026-04-23 22:07:21.199935
+S760,Mahindra Logistics,Sensor Module,235,In Transit,7,Chicago,5517,76,2026-04-17 22:07:21.199935
+S761,Mahindra Logistics,EV Battery,432,Delivered,5,California,1891,32,2026-04-22 22:07:21.199935
+S762,Tata Components,Tyre,65,In Transit,11,New York,9978,92,2026-04-18 22:07:21.199935
+S763,Mahindra Logistics,Sensor Module,434,In Transit,9,Toronto,4166,99,2026-04-17 22:07:21.199935
+S764,Tesla Parts Ltd,Brake System,88,In Transit,3,Toronto,4777,64,2026-05-13 22:07:21.199935
+S765,Continental Supply,EV Battery,451,In Transit,3,Dallas,6583,56,2026-05-16 22:07:21.199935
+S766,Bosch Mobility,Brake System,425,Delayed,11,Toronto,5482,25,2026-05-10 22:07:21.199935
+S767,Mahindra Logistics,Brake System,141,Delayed,1,New York,6213,75,2026-05-14 22:07:21.199935
+S768,Tesla Parts Ltd,Sensor Module,319,Delivered,13,Chicago,3305,49,2026-04-19 22:07:21.199935
+S769,Mahindra Logistics,Motor Controller,470,Delayed,15,New York,9238,52,2026-05-06 22:07:21.199935
+S770,Bosch Mobility,Sensor Module,228,Delivered,4,Chicago,3189,48,2026-04-18 22:07:21.199935
+S771,Bosch Mobility,Tyre,367,Delivered,8,California,3855,40,2026-04-19 22:07:21.199935
+S772,Mahindra Logistics,Brake System,442,Delayed,13,Chicago,4132,76,2026-04-27 22:07:21.199935
+S773,Mahindra Logistics,Sensor Module,211,In Transit,9,California,7686,100,2026-05-01 22:07:21.199935
+S774,Tata Components,EV Battery,499,In Transit,11,Toronto,3791,97,2026-05-14 22:07:21.199935
+S775,Tesla Parts Ltd,Brake System,415,In Transit,10,Toronto,2471,55,2026-04-24 22:07:21.199935
+S776,Bosch Mobility,EV Battery,257,Delayed,1,Chicago,3519,57,2026-05-03 22:07:21.199935
+S777,Tata Components,Tyre,249,Delivered,7,New York,3266,69,2026-05-13 22:07:21.199935
+S778,Continental Supply,Tyre,257,Delivered,6,Toronto,4223,74,2026-04-20 22:07:21.199935
+S779,Tesla Parts Ltd,Sensor Module,386,Delayed,12,Dallas,1018,69,2026-04-29 22:07:21.199935
+S780,Tata Components,Tyre,293,Delayed,11,Chicago,9047,80,2026-05-13 22:07:21.199935
+S781,Continental Supply,EV Battery,220,Delivered,4,Dallas,5653,13,2026-05-05 22:07:21.199935
+S782,Continental Supply,Brake System,276,In Transit,2,California,9244,29,2026-05-01 22:07:21.199935
+S783,Tata Components,Sensor Module,76,Delivered,6,Dallas,4853,42,2026-05-11 22:07:21.199935
+S784,Bosch Mobility,Brake System,458,Delayed,12,California,6405,70,2026-05-14 22:07:21.199935
+S785,Mahindra Logistics,Sensor Module,271,Delivered,8,Dallas,3289,21,2026-04-28 22:07:21.199935
+S786,Bosch Mobility,Motor Controller,203,In Transit,6,Toronto,7711,80,2026-04-22 22:07:21.199935
+S787,Continental Supply,Brake System,320,Delivered,6,California,9424,76,2026-05-13 22:07:21.199935
+S788,Continental Supply,Sensor Module,60,Delivered,9,New York,1975,29,2026-04-23 22:07:21.199935
+S789,Mahindra Logistics,EV Battery,429,Delivered,9,Dallas,2377,99,2026-04-18 22:07:21.199935
+S790,Mahindra Logistics,Brake System,291,In Transit,10,Chicago,1556,54,2026-04-27 22:07:21.199935
+S791,Mahindra Logistics,Brake System,337,Delivered,7,Chicago,9033,92,2026-05-03 22:07:21.199935
+S792,Bosch Mobility,Sensor Module,134,Delayed,8,New York,9043,79,2026-05-07 22:07:21.199935
+S793,Mahindra Logistics,Brake System,125,In Transit,15,California,7060,70,2026-04-19 22:07:21.199935
+S794,Bosch Mobility,Brake System,103,In Transit,12,Dallas,7929,64,2026-05-02 22:07:21.199935
+S795,Tata Components,Tyre,308,Delayed,6,New York,6286,58,2026-05-06 22:07:21.199935
+S796,Tesla Parts Ltd,Motor Controller,381,Delayed,3,New York,7785,57,2026-05-16 22:07:21.199935
+S797,Tesla Parts Ltd,Brake System,215,Delayed,7,New York,3642,67,2026-05-13 22:07:21.199935
+S798,Continental Supply,Sensor Module,212,In Transit,10,California,8319,100,2026-05-02 22:07:21.199935
+S799,Bosch Mobility,Tyre,461,Delayed,7,New York,2357,85,2026-04-17 22:07:21.199935
+S800,Bosch Mobility,Brake System,352,In Transit,2,Toronto,5981,69,2026-05-05 22:07:21.199935
+S801,Tesla Parts Ltd,Brake System,383,Delivered,6,Chicago,9396,64,2026-05-04 22:07:21.199935
+S802,Bosch Mobility,Motor Controller,465,Delivered,12,Chicago,7058,21,2026-05-16 22:07:21.199935
+S803,Bosch Mobility,Sensor Module,338,Delayed,8,California,6051,38,2026-04-29 22:07:21.199935
+S804,Tata Components,Sensor Module,135,Delayed,10,New York,1712,90,2026-04-29 22:07:21.199935
+S805,Continental Supply,Tyre,146,Delivered,1,New York,7695,45,2026-04-19 22:07:21.199935
+S806,Tata Components,Sensor Module,99,Delivered,1,Toronto,2871,39,2026-04-22 22:07:21.199935
+S807,Continental Supply,Motor Controller,400,Delivered,10,California,9830,74,2026-04-17 22:07:21.199935
+S808,Continental Supply,Sensor Module,208,Delivered,5,Dallas,3742,19,2026-05-04 22:07:21.199935
+S809,Mahindra Logistics,Brake System,395,In Transit,10,California,1619,55,2026-05-17 22:07:21.199935
+S810,Mahindra Logistics,Brake System,480,Delivered,10,Chicago,5434,15,2026-04-28 22:07:21.199935
+S811,Tesla Parts Ltd,Sensor Module,495,Delivered,11,New York,3584,75,2026-04-17 22:07:21.199935
+S812,Tesla Parts Ltd,Motor Controller,172,Delivered,14,New York,3503,16,2026-04-22 22:07:21.199935
+S813,Tata Components,Motor Controller,406,Delayed,11,Chicago,9005,75,2026-05-02 22:07:21.199935
+S814,Continental Supply,Tyre,297,In Transit,5,Dallas,2535,38,2026-05-13 22:07:21.199935
+S815,Bosch Mobility,Brake System,280,Delivered,9,California,9592,34,2026-04-18 22:07:21.199935
+S816,Bosch Mobility,Tyre,461,Delivered,12,New York,4753,17,2026-04-18 22:07:21.199935
+S817,Mahindra Logistics,Brake System,229,Delayed,5,California,5164,43,2026-04-26 22:07:21.199935
+S818,Mahindra Logistics,EV Battery,149,In Transit,8,Toronto,5034,48,2026-05-16 22:07:21.199935
+S819,Mahindra Logistics,Motor Controller,178,Delivered,8,Toronto,4896,87,2026-05-13 22:07:21.199935
+S820,Tata Components,Sensor Module,403,Delivered,8,California,6344,13,2026-04-28 22:07:21.199935
+S821,Tata Components,Motor Controller,374,Delayed,12,New York,7592,88,2026-05-15 22:07:21.199935
+S822,Tesla Parts Ltd,EV Battery,316,Delayed,3,California,5456,32,2026-05-01 22:07:21.199935
+S823,Tata Components,EV Battery,233,Delivered,7,California,4518,88,2026-05-05 22:07:21.199935
+S824,Tesla Parts Ltd,Motor Controller,492,Delivered,5,California,5807,89,2026-04-28 22:07:21.199935
+S825,Bosch Mobility,Sensor Module,213,In Transit,1,Dallas,4066,44,2026-04-30 22:07:21.199935
+S826,Tata Components,Motor Controller,196,Delayed,13,Chicago,3007,50,2026-04-25 22:07:21.199935
+S827,Bosch Mobility,Brake System,161,In Transit,2,New York,2887,29,2026-04-25 22:07:21.199935
+S828,Continental Supply,Tyre,192,Delivered,15,Dallas,1593,88,2026-04-29 22:07:21.199935
+S829,Mahindra Logistics,Tyre,259,In Transit,10,New York,8831,34,2026-04-21 22:07:21.199935
+S830,Mahindra Logistics,Sensor Module,368,Delayed,5,Chicago,8741,26,2026-05-06 22:07:21.199935
+S831,Continental Supply,Brake System,167,Delivered,2,Toronto,2776,83,2026-05-10 22:07:21.199935
+S832,Continental Supply,Brake System,368,Delayed,4,Dallas,5574,35,2026-04-27 22:07:21.199935
+S833,Continental Supply,Brake System,107,Delayed,3,Toronto,7976,44,2026-04-24 22:07:21.199935
+S834,Tata Components,EV Battery,116,Delayed,8,California,6038,80,2026-04-21 22:07:21.199935
+S835,Bosch Mobility,EV Battery,204,In Transit,15,Chicago,1247,75,2026-05-06 22:07:21.199935
+S836,Tesla Parts Ltd,EV Battery,329,In Transit,13,California,8623,64,2026-04-23 22:07:21.199935
+S837,Continental Supply,Sensor Module,131,Delivered,5,New York,6990,94,2026-05-11 22:07:21.199935
+S838,Tesla Parts Ltd,Sensor Module,331,Delivered,13,Dallas,3186,26,2026-05-14 22:07:21.199935
+S839,Continental Supply,Tyre,294,Delayed,15,Chicago,4467,34,2026-04-22 22:07:21.199935
+S840,Mahindra Logistics,Brake System,93,Delayed,5,California,6643,33,2026-05-03 22:07:21.199935
+S841,Tesla Parts Ltd,EV Battery,70,In Transit,1,California,2984,89,2026-05-15 22:07:21.199935
+S842,Tesla Parts Ltd,Brake System,207,Delivered,2,Dallas,4248,45,2026-04-26 22:07:21.199935
+S843,Tesla Parts Ltd,Tyre,147,In Transit,14,Chicago,8155,91,2026-05-02 22:07:21.199935
+S844,Bosch Mobility,Brake System,166,Delayed,10,California,6838,25,2026-05-10 22:07:21.199935
+S845,Mahindra Logistics,Sensor Module,100,In Transit,8,Dallas,7016,65,2026-04-18 22:07:21.199935
+S846,Bosch Mobility,Tyre,384,Delayed,9,Dallas,3436,28,2026-05-02 22:07:21.199935
+S847,Continental Supply,Brake System,471,In Transit,12,Toronto,3008,24,2026-04-24 22:07:21.199935
+S848,Continental Supply,Tyre,298,In Transit,10,California,2306,90,2026-05-15 22:07:21.199935
+S849,Bosch Mobility,EV Battery,383,Delayed,12,Chicago,6375,54,2026-04-24 22:07:21.199935
+S850,Mahindra Logistics,Tyre,351,In Transit,12,Dallas,3169,68,2026-05-10 22:07:21.199935
+S851,Mahindra Logistics,Tyre,464,Delayed,13,California,1515,67,2026-04-29 22:07:21.199935
+S852,Tata Components,Tyre,174,In Transit,11,Chicago,9873,11,2026-04-28 22:07:21.199935
+S853,Bosch Mobility,EV Battery,387,Delayed,4,Toronto,2763,81,2026-05-09 22:07:21.199935
+S854,Mahindra Logistics,Brake System,286,In Transit,13,Dallas,4853,93,2026-05-13 22:07:21.199935
+S855,Bosch Mobility,Tyre,418,In Transit,15,California,8897,57,2026-04-26 22:07:21.199935
+S856,Tata Components,Motor Controller,415,In Transit,6,California,3733,47,2026-04-26 22:07:21.199935
+S857,Mahindra Logistics,Brake System,481,In Transit,4,Dallas,3708,16,2026-05-03 22:07:21.199935
+S858,Continental Supply,Brake System,360,Delayed,15,California,5804,98,2026-05-16 22:07:21.199935
+S859,Continental Supply,Sensor Module,492,In Transit,1,New York,6746,59,2026-04-20 22:07:21.199935
+S860,Tata Components,Sensor Module,188,Delayed,4,California,8327,28,2026-05-11 22:07:21.199935
+S861,Mahindra Logistics,Motor Controller,324,Delivered,1,Toronto,9792,26,2026-05-09 22:07:21.199935
+S862,Mahindra Logistics,Sensor Module,195,In Transit,14,Dallas,4463,80,2026-04-24 22:07:21.199935
+S863,Tata Components,Tyre,242,Delayed,13,Toronto,9910,79,2026-05-15 22:07:21.199935
+S864,Continental Supply,Brake System,476,In Transit,13,California,7784,27,2026-05-13 22:07:21.199935
+S865,Tesla Parts Ltd,Motor Controller,100,Delayed,3,Dallas,9901,21,2026-04-25 22:07:21.199935
+S866,Tesla Parts Ltd,Sensor Module,402,Delayed,8,New York,9817,84,2026-05-02 22:07:21.199935
+S867,Tesla Parts Ltd,Motor Controller,69,Delivered,6,Dallas,2994,86,2026-04-17 22:07:21.199935
+S868,Tesla Parts Ltd,Sensor Module,279,Delayed,3,Chicago,7172,30,2026-04-17 22:07:21.199935
+S869,Bosch Mobility,Motor Controller,273,Delayed,3,New York,1429,47,2026-05-14 22:07:21.199935
+S870,Bosch Mobility,Tyre,441,In Transit,2,Dallas,7256,100,2026-05-12 22:07:21.199935
+S871,Tata Components,Sensor Module,120,In Transit,3,Chicago,7964,56,2026-05-03 22:07:21.199935
+S872,Tata Components,Brake System,68,Delivered,7,Toronto,5819,80,2026-04-28 22:07:21.199935
+S873,Tata Components,Sensor Module,64,Delayed,8,Toronto,5202,37,2026-05-08 22:07:21.199935
+S874,Continental Supply,Sensor Module,152,Delayed,14,Dallas,1563,36,2026-04-17 22:07:21.199935
+S875,Continental Supply,Brake System,218,Delayed,6,Chicago,4172,93,2026-04-29 22:07:21.199935
+S876,Tata Components,Sensor Module,365,In Transit,15,Toronto,5776,58,2026-05-03 22:07:21.199935
+S877,Continental Supply,Sensor Module,210,Delayed,1,Chicago,3625,99,2026-04-20 22:07:21.199935
+S878,Tata Components,Sensor Module,356,Delivered,9,California,1961,31,2026-04-19 22:07:21.199935
+S879,Mahindra Logistics,Tyre,112,Delivered,2,Dallas,5780,52,2026-05-08 22:07:21.199935
+S880,Continental Supply,Sensor Module,348,Delayed,9,Chicago,9651,53,2026-05-12 22:07:21.199935
+S881,Mahindra Logistics,Tyre,475,Delayed,7,New York,5427,77,2026-04-29 22:07:21.199935
+S882,Tata Components,Brake System,145,Delivered,12,California,4599,67,2026-04-21 22:07:21.199935
+S883,Bosch Mobility,Tyre,440,Delivered,4,California,5253,33,2026-05-17 22:07:21.199935
+S884,Bosch Mobility,Brake System,261,Delivered,13,Toronto,9583,92,2026-04-26 22:07:21.199935
+S885,Bosch Mobility,Brake System,134,In Transit,9,Toronto,9349,20,2026-04-29 22:07:21.199935
+S886,Bosch Mobility,Brake System,174,In Transit,2,Dallas,3257,71,2026-04-17 22:07:21.199935
+S887,Tesla Parts Ltd,Motor Controller,218,Delayed,1,California,7669,10,2026-04-22 22:07:21.199935
+S888,Tesla Parts Ltd,Tyre,275,Delivered,13,Chicago,5631,49,2026-04-28 22:07:21.199935
+S889,Mahindra Logistics,Sensor Module,408,Delivered,7,Dallas,3374,52,2026-05-08 22:07:21.199935
+S890,Bosch Mobility,Sensor Module,292,In Transit,1,Chicago,6162,53,2026-04-21 22:07:21.199935
+S891,Bosch Mobility,Sensor Module,341,In Transit,6,New York,5037,73,2026-05-12 22:07:21.199935
+S892,Bosch Mobility,Sensor Module,232,Delivered,9,California,6280,60,2026-05-09 22:07:21.199935
+S893,Mahindra Logistics,Tyre,177,Delayed,12,California,1897,14,2026-05-09 22:07:21.199935
+S894,Tesla Parts Ltd,Motor Controller,334,In Transit,8,New York,6346,33,2026-04-29 22:07:21.199935
+S895,Continental Supply,Tyre,327,In Transit,5,California,3233,79,2026-05-10 22:07:21.199935
+S896,Tesla Parts Ltd,Brake System,336,Delayed,12,Dallas,4549,31,2026-05-16 22:07:21.199935
+S897,Mahindra Logistics,Tyre,404,Delayed,10,Chicago,9773,98,2026-05-03 22:07:21.199935
+S898,Tesla Parts Ltd,EV Battery,390,Delayed,12,New York,3558,73,2026-04-26 22:07:21.199935
+S899,Tesla Parts Ltd,EV Battery,209,Delivered,14,California,2037,98,2026-04-24 22:07:21.199935
+S900,Tesla Parts Ltd,Brake System,119,Delivered,7,Dallas,6174,13,2026-05-09 22:07:21.199935
+S901,Continental Supply,EV Battery,104,Delivered,1,California,8763,35,2026-05-06 22:07:21.199935
+S902,Tesla Parts Ltd,Motor Controller,291,In Transit,13,California,3868,60,2026-05-17 22:07:21.199935
+S903,Continental Supply,Brake System,213,In Transit,9,Dallas,6033,38,2026-04-25 22:07:21.199935
+S904,Bosch Mobility,Tyre,67,Delayed,6,Chicago,6234,74,2026-05-15 22:07:21.199935
+S905,Tata Components,EV Battery,57,Delivered,11,Chicago,8008,55,2026-04-28 22:07:21.199935
+S906,Continental Supply,EV Battery,68,Delivered,11,Dallas,1219,88,2026-05-08 22:07:21.199935
+S907,Mahindra Logistics,EV Battery,241,Delivered,15,Dallas,5676,30,2026-04-18 22:07:21.199935
+S908,Continental Supply,Sensor Module,286,In Transit,9,New York,3328,55,2026-05-11 22:07:21.199935
+S909,Tata Components,Brake System,391,In Transit,12,New York,4220,37,2026-05-14 22:07:21.199935
+S910,Bosch Mobility,EV Battery,276,Delayed,14,Toronto,2682,26,2026-05-15 22:07:21.199935
+S911,Tata Components,Tyre,62,In Transit,12,California,5573,72,2026-05-07 22:07:21.199935
+S912,Tata Components,EV Battery,444,Delivered,2,Toronto,4281,10,2026-05-09 22:07:21.199935
+S913,Bosch Mobility,EV Battery,275,Delayed,7,Dallas,8667,47,2026-04-23 22:07:21.199935
+S914,Continental Supply,Sensor Module,385,Delayed,10,New York,7162,40,2026-05-12 22:07:21.199935
+S915,Tesla Parts Ltd,Motor Controller,365,Delivered,13,California,4485,45,2026-04-18 22:07:21.199935
+S916,Mahindra Logistics,EV Battery,481,Delayed,10,California,1218,78,2026-04-28 22:07:21.199935
+S917,Tesla Parts Ltd,EV Battery,69,Delivered,2,New York,4444,64,2026-04-27 22:07:21.199935
+S918,Mahindra Logistics,Tyre,411,Delayed,7,Toronto,8199,77,2026-05-08 22:07:21.199935
+S919,Tata Components,Motor Controller,206,Delayed,10,Dallas,2529,59,2026-04-26 22:07:21.199935
+S920,Bosch Mobility,Tyre,459,Delivered,5,California,3376,60,2026-05-01 22:07:21.199935
+S921,Mahindra Logistics,Motor Controller,370,In Transit,14,New York,3415,13,2026-04-25 22:07:21.199935
+S922,Mahindra Logistics,Tyre,100,In Transit,3,Dallas,8806,67,2026-05-03 22:07:21.199935
+S923,Tata Components,Sensor Module,227,Delivered,5,Dallas,7642,91,2026-04-26 22:07:21.199935
+S924,Continental Supply,Brake System,438,Delivered,6,New York,5205,51,2026-04-28 22:07:21.199935
+S925,Tesla Parts Ltd,Motor Controller,428,In Transit,2,California,6704,12,2026-05-07 22:07:21.199935
+S926,Continental Supply,EV Battery,142,In Transit,11,Chicago,3266,59,2026-05-16 22:07:21.199935
+S927,Tesla Parts Ltd,Motor Controller,350,Delayed,10,Dallas,9820,20,2026-04-24 22:07:21.199935
+S928,Bosch Mobility,Tyre,93,In Transit,14,Toronto,9496,70,2026-05-17 22:07:21.199935
+S929,Bosch Mobility,Tyre,432,Delivered,11,Toronto,3287,57,2026-05-08 22:07:21.199935
+S930,Continental Supply,Motor Controller,319,Delivered,10,California,8195,80,2026-04-29 22:07:21.199935
+S931,Tata Components,Brake System,410,In Transit,13,Toronto,2102,89,2026-04-27 22:07:21.199935
+S932,Bosch Mobility,Brake System,124,Delayed,11,Dallas,1477,96,2026-05-03 22:07:21.199935
+S933,Mahindra Logistics,Sensor Module,275,Delayed,6,Dallas,5334,65,2026-04-26 22:07:21.199935
+S934,Mahindra Logistics,Tyre,358,Delayed,7,New York,5962,55,2026-05-08 22:07:21.199935
+S935,Continental Supply,Sensor Module,284,Delivered,12,California,1231,67,2026-05-14 22:07:21.199935
+S936,Continental Supply,Motor Controller,198,Delayed,7,Chicago,7109,87,2026-04-28 22:07:21.199935
+S937,Tata Components,Sensor Module,207,Delivered,12,Dallas,5561,59,2026-04-22 22:07:21.199935
+S938,Bosch Mobility,Tyre,323,Delayed,6,Chicago,2206,80,2026-05-10 22:07:21.199935
+S939,Continental Supply,Motor Controller,315,In Transit,7,Toronto,7653,38,2026-04-20 22:07:21.199935
+S940,Bosch Mobility,Brake System,129,In Transit,4,New York,5544,24,2026-04-27 22:07:21.199935
+S941,Tesla Parts Ltd,Motor Controller,268,Delivered,9,Dallas,5467,84,2026-05-03 22:07:21.199935
+S942,Mahindra Logistics,Sensor Module,109,Delivered,2,Dallas,6893,87,2026-05-10 22:07:21.199935
+S943,Continental Supply,Tyre,479,In Transit,6,Chicago,8550,93,2026-05-06 22:07:21.199935
+S944,Tesla Parts Ltd,Motor Controller,135,Delayed,14,New York,2459,80,2026-05-02 22:07:21.199935
+S945,Tata Components,Motor Controller,137,In Transit,3,Chicago,7296,49,2026-04-19 22:07:21.199935
+S946,Mahindra Logistics,Tyre,390,In Transit,14,New York,7874,58,2026-04-21 22:07:21.199935
+S947,Tata Components,Motor Controller,338,In Transit,10,Toronto,3480,10,2026-05-04 22:07:21.199935
+S948,Continental Supply,Tyre,453,In Transit,4,Dallas,4842,76,2026-04-21 22:07:21.199935
+S949,Tesla Parts Ltd,Tyre,274,In Transit,9,New York,7656,42,2026-05-13 22:07:21.199935
+S950,Tata Components,EV Battery,364,Delayed,3,Toronto,5172,78,2026-04-18 22:07:21.199935
+S951,Tesla Parts Ltd,Sensor Module,321,Delayed,5,Dallas,7721,35,2026-05-10 22:07:21.199935
+S952,Bosch Mobility,Brake System,316,In Transit,10,Dallas,1281,37,2026-05-13 22:07:21.199935
+S953,Tata Components,EV Battery,96,In Transit,4,New York,9468,99,2026-05-05 22:07:21.199935
+S954,Mahindra Logistics,EV Battery,458,Delivered,15,Dallas,1979,18,2026-05-16 22:07:21.199935
+S955,Tata Components,Sensor Module,308,Delayed,1,Dallas,6147,17,2026-05-14 22:07:21.199935
+S956,Tesla Parts Ltd,Sensor Module,424,Delivered,13,California,3045,56,2026-04-26 22:07:21.199935
+S957,Tesla Parts Ltd,EV Battery,80,Delivered,4,Chicago,4939,81,2026-04-17 22:07:21.199935
+S958,Tesla Parts Ltd,EV Battery,229,In Transit,4,Chicago,1312,78,2026-05-13 22:07:21.199935
+S959,Tata Components,Motor Controller,438,Delivered,6,Dallas,5061,23,2026-05-08 22:07:21.199935
+S960,Mahindra Logistics,Motor Controller,111,Delivered,2,New York,2343,84,2026-04-26 22:07:21.199935
+S961,Mahindra Logistics,Brake System,55,In Transit,9,Dallas,6863,17,2026-04-29 22:07:21.199935
+S962,Tesla Parts Ltd,Tyre,309,In Transit,11,Toronto,4740,38,2026-05-01 22:07:21.199935
+S963,Tesla Parts Ltd,Brake System,219,Delivered,11,Toronto,2435,78,2026-05-06 22:07:21.199935
+S964,Bosch Mobility,Motor Controller,453,Delayed,2,Dallas,9387,27,2026-04-22 22:07:21.199935
+S965,Bosch Mobility,EV Battery,385,Delayed,13,New York,9323,99,2026-04-17 22:07:21.199935
+S966,Continental Supply,Brake System,260,Delivered,9,Toronto,6708,43,2026-05-15 22:07:21.199935
+S967,Tesla Parts Ltd,Brake System,365,In Transit,3,Dallas,8643,53,2026-05-06 22:07:21.199935
+S968,Tesla Parts Ltd,EV Battery,226,Delivered,15,Toronto,6646,94,2026-05-05 22:07:21.199935
+S969,Bosch Mobility,Brake System,460,Delivered,8,Toronto,7528,60,2026-04-20 22:07:21.199935
+S970,Continental Supply,Tyre,235,In Transit,1,California,7992,87,2026-04-19 22:07:21.199935
+S971,Tata Components,Sensor Module,271,In Transit,14,Dallas,1892,85,2026-05-03 22:07:21.199935
+S972,Tata Components,Tyre,351,In Transit,7,Dallas,9646,16,2026-05-15 22:07:21.199935
+S973,Tesla Parts Ltd,Sensor Module,331,In Transit,3,Toronto,4643,54,2026-04-27 22:07:21.199935
+S974,Tata Components,EV Battery,160,In Transit,6,California,1064,79,2026-04-29 22:07:21.199935
+S975,Mahindra Logistics,Brake System,82,Delivered,14,New York,6483,61,2026-04-23 22:07:21.199935
+S976,Bosch Mobility,EV Battery,106,Delivered,9,New York,6568,49,2026-04-20 22:07:21.199935
+S977,Bosch Mobility,Sensor Module,154,Delayed,9,Dallas,1764,12,2026-05-07 22:07:21.199935
+S978,Tesla Parts Ltd,Brake System,143,Delayed,8,Chicago,1358,11,2026-05-10 22:07:21.199935
+S979,Tata Components,Brake System,126,In Transit,13,California,4969,68,2026-04-20 22:07:21.199935
+S980,Mahindra Logistics,Brake System,96,In Transit,3,Dallas,5267,94,2026-04-22 22:07:21.199935
+S981,Continental Supply,Motor Controller,141,Delayed,11,California,7941,15,2026-04-18 22:07:21.199935
+S982,Bosch Mobility,Brake System,267,Delayed,11,Dallas,4383,62,2026-05-15 22:07:21.199935
+S983,Continental Supply,EV Battery,202,Delayed,14,Toronto,8424,49,2026-05-16 22:07:21.199935
+S984,Bosch Mobility,Brake System,184,Delivered,5,New York,5834,54,2026-04-23 22:07:21.199935
+S985,Bosch Mobility,Sensor Module,375,Delayed,5,Toronto,8237,15,2026-05-16 22:07:21.199935
+S986,Mahindra Logistics,EV Battery,278,Delayed,14,Chicago,9444,30,2026-05-02 22:07:21.199935
+S987,Mahindra Logistics,Tyre,171,Delayed,1,New York,7957,97,2026-04-27 22:07:21.199935
+S988,Tesla Parts Ltd,Tyre,247,In Transit,6,Toronto,4225,46,2026-04-18 22:07:21.199935
+S989,Tata Components,Motor Controller,269,Delayed,5,Chicago,4822,96,2026-05-05 22:07:21.199935
+S990,Continental Supply,Brake System,350,Delayed,7,California,3786,31,2026-05-11 22:07:21.199935
+S991,Bosch Mobility,Tyre,318,In Transit,1,Chicago,7071,60,2026-05-05 22:07:21.199935
+S992,Continental Supply,Tyre,156,Delivered,7,Chicago,1923,100,2026-05-14 22:07:21.199935
+S993,Continental Supply,Tyre,258,In Transit,11,Chicago,6310,100,2026-05-07 22:07:21.199935
+S994,Tata Components,Tyre,57,Delivered,4,Chicago,9522,76,2026-05-09 22:07:21.199935
+S995,Tata Components,Motor Controller,383,Delayed,12,Toronto,6116,26,2026-04-17 22:07:21.199935
+S996,Bosch Mobility,EV Battery,480,In Transit,8,New York,8519,79,2026-04-27 22:07:21.199935
+S997,Mahindra Logistics,Sensor Module,271,Delayed,3,New York,6390,25,2026-04-19 22:07:21.199935
+S998,Mahindra Logistics,Tyre,435,Delivered,6,Dallas,5019,93,2026-04-26 22:07:21.199935
+S999,Bosch Mobility,EV Battery,102,In Transit,11,Dallas,4201,52,2026-04-22 22:07:21.199935
+S1000,Continental Supply,Motor Controller,318,Delivered,3,Toronto,1636,50,2026-04-23 22:07:21.199935
