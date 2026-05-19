@@ -161,7 +161,7 @@ Dashboard Insights:
 
 # 📸 Dashboard Preview
 
-![Dashboard](Dashboard/dashboard.png)
+![Dashboard](Dashboard/dashboard.pdf)
 
 ---
 
